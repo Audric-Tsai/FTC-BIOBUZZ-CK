@@ -97,4 +97,4 @@ REV-42-1442        #25 Chain Tool                                               
 REV-45-1259        15mm Hinge Kit                                                  2
 ```
 
-Look up any SKU / part name / photo here: [REV Robotics – FTC Parts Catalog](https://www.revrobotics.com/ftc/) (browse by category, every listing shows the SKU and full part name) and [REV DUO Build System Docs](https://docs.revrobotics.com/duo-build/) (photo + name reference by part type, no full SKU index).
+Look up any SKU / part name / photo here: [REV Robotics – FTC Parts Catalog](https://www.revrobotics.com/ftc/) (browse by category, every listing shows the SKU and full part name) and [REV DUO Build System Docs](https://docs.revrobotics.com/duo-build/) (photo + name reference by part type).
