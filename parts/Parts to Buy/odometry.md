@@ -5,15 +5,11 @@ Penjelasan konsep odometry (apa itu, jenis-jenisnya, kenapa penting) ada di repo
 ## Perbandingan Opsi Sensor
 
 ```text
-Produk                          SKU              Harga     Cara Kerja                          Link
-------------------------------------------------------------------------------------------------------------------------------------------------------------------
-goBILDA Pinpoint V2              3110-0002-0002   US$79.99  Coprocessor fusion IMU + 2 dead     https://www.gobilda.com/pinpoint-v2-odometry-computer-imu-sensor-fusion-for-2-wheel-odometry/
-Odometry Computer                                            wheel pod, update 1500Hz
-SparkFun OTOS                    PAA5160E1        US$79.95  1 sensor optik tunggal, baca gerakan https://www.sparkfun.com/sparkfun-optical-tracking-odometry-sensor-paa5160e1-qwiic.html
-(Optical Tracking Odometry                                   dari lantai langsung, sudah ada IMU
-Sensor)                                                       6-axis built-in, nggak perlu dead wheel
-REV Through Bore Encoder V2      REV-11-3174      US$48.00  Encoder generik buat bikin dead     https://www.revrobotics.com/rev-11-3174/
-                                                              wheel pod sendiri (DIY), butuh 2-3 unit
+Produk                                            SKU             Harga     Cara Kerja                                                                 Link                                                                                           
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+goBILDA Pinpoint V2 Odometry Computer             3110-0002-0002  US$79.99  Coprocessor fusion IMU + 2 dead wheel pod, update 1500Hz                   https://www.gobilda.com/pinpoint-v2-odometry-computer-imu-sensor-fusion-for-2-wheel-odometry/  
+SparkFun OTOS (Optical Tracking Odometry Sensor)  PAA5160E1       US$79.95  1 sensor optik tunggal, baca gerakan dari lantai, ada IMU 6-axis built-in  https://www.sparkfun.com/sparkfun-optical-tracking-odometry-sensor-paa5160e1-qwiic.html        
+REV Through Bore Encoder V2                       REV-11-3174     US$48.00  Encoder generik buat bikin dead wheel pod sendiri (DIY), butuh 2-3 unit    https://www.revrobotics.com/rev-11-3174/                                                       
 ```
 
 ## Wheel untuk Dead Wheel Odometry

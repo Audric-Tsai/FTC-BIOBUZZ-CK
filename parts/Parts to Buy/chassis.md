@@ -9,17 +9,15 @@ Semua part struktural dari 2x Starter Kit V3.1 (C-Channel, extrusion 15mm, plat 
 ## Perbandingan Biaya & Massa (Estimasi)
 
 ```text
-Material                    Contoh Produk                          Harga (perkiraan)         Massa/Densitas        Sumber Beli
-------------------------------------------------------------------------------------------------------------------------------------------------
-Aluminium 6061-T6            REV Extrusion/C-Channel (sudah dipakai) ~US$3.5-6 / kg (bahan baku) 2.70 g/cm3           revrobotics.com/ftc/ (part resmi, sudah dipakai CK)
-Carbon Fiber (plat, hobi)    Plat carbon fiber 3mm, 40x50cm          ~Rp900.000 - 1.600.000     1.55-1.60 g/cm3      Tokopedia (mis. toko "Rapid Resin", cari "plat carbon fiber")
-Carbon Fiber (industri)      DragonPlate Economy sheet 1/32" 6x6in   ~US$15 (kecil), s/d         1.55-1.60 g/cm3      dragonplate.com
-                                                                      ribuan US$ (lembar besar)
-PETG/ABS (filamen 3D print)  Filamen 1kg                             ~US$18-30 / kg (~Rp300rb-   1.04-1.27 g/cm3      Tokopedia/Shopee, banyak toko filamen lokal
-                                                                      500rb/kg)
-Polikarbonat (Lexan)         Lembaran 3mm, 40x40cm                   ~Rp340.000                  1.20 g/cm3           Tokopedia (mis. toko "Mitra Perkasa Teknindo", "SM
-                             Lembaran 3mm, 122x244cm (1 lembar besar) ~Rp1.170.000                                    Packing Gasket", cari "polycarbonate sheet")
-                             Lembaran 2mm, 122x244cm                 ~Rp850.000-925.000
+Material                 Contoh Produk                             Harga (perkiraan)                    Massa/Densitas   Sumber Beli                             
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+Aluminium 6061-T6        REV Extrusion/C-Channel (sudah dipakai)   ~US$3.5-6/kg (bahan baku)            2.70 g/cm3       revrobotics.com/ftc/ (part resmi)       
+Carbon Fiber (hobi)      Plat carbon fiber 3mm, 40x50cm            ~Rp900rb - 1.6jt                     1.55-1.60 g/cm3  Tokopedia (cari "plat carbon fiber")    
+Carbon Fiber (industri)  DragonPlate Economy 1/32" 6x6in           US$15 s/d ribuan US$ (lembar besar)  1.55-1.60 g/cm3  dragonplate.com                         
+PETG/ABS (filamen 3D)    Filamen 1kg                               ~US$18-30/kg (~Rp300-500rb/kg)       1.04-1.27 g/cm3  Tokopedia/Shopee (toko filamen lokal)   
+Polikarbonat (Lexan)     Lembaran 3mm, 40x40cm                     ~Rp340rb                             1.20 g/cm3       Tokopedia (cari "polycarbonate sheet")  
+Polikarbonat (Lexan)     Lembaran 3mm, 122x244cm (1 lembar besar)  ~Rp1.17jt                            1.20 g/cm3       Tokopedia                               
+Polikarbonat (Lexan)     Lembaran 2mm, 122x244cm                   ~Rp850-925rb                         1.20 g/cm3       Tokopedia                               
 ```
 
 Harga carbon fiber & polikarbonat di atas hasil pencarian listing Tokopedia saat ini (bisa berubah, cek langsung sebelum beli). Harga aluminium & carbon fiber industri dari data harga global (bahan mentah, belum termasuk ongkos potong custom).

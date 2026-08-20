@@ -19,13 +19,12 @@ Jadi secara teori, **CK bisa mulai prototipe roller intake tanpa beli apa pun** 
 Kamu minta dibandingkan 4 opsi motor 12V DC berikut. Ini datanya:
 
 ```text
-Motor                                   Speed Bebas   Torsi Stall    Arus Stall   Poros Output              Harga        Status
----------------------------------------------------------------------------------------------------------------------------------------
-goBILDA Matrix 12V DC Motor (mentah)    ~6000 RPM     Rendah*        ~10 A        Butuh gearbox/pulley luar  ~US$32-35    Belum punya
-AndyMark NeveRest Motor Only (mentah)   6000 RPM      0.062 N-m*     11.5 A       Bulat 3.175mm (BUKAN hex)  US$9-25      Belum punya
-REV Core Hex Motor (REV-41-1300)        125 RPM       3.2 N-m        4.4 A        5mm hex female (72:1)     US$32        Sudah punya (2x)
-REV HD Hex Motor — UltraPlanetary Kit   Bisa diatur   Bisa diatur    Bisa diatur  5mm hex male               ~US$60       Sudah punya (6x)
-(REV-41-1600)                           (1-3 stage)   (1-3 stage)    (1-3 stage)
+Motor                                                                      Speed Bebas  Torsi Stall  Arus Stall   Poros Output               Harga      Status            
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+goBILDA Matrix 12V DC Motor (mentah)                                       ~6000 RPM    Rendah*      ~10 A        Butuh gearbox/pulley luar  ~US$32-35  Belum punya       
+AndyMark NeveRest Motor Only (mentah)                                      6000 RPM     0.062 N-m*   11.5 A       Bulat 3.175mm (BUKAN hex)  US$9-25    Belum punya       
+REV Core Hex Motor (REV-41-1300)                                           125 RPM      3.2 N-m      4.4 A        5mm hex female (72:1)      US$32      Sudah punya (2x)  
+REV HD Hex Motor - UltraPlanetary Kit (REV-41-1600), 1 stage rasio rendah  Bisa diatur  Bisa diatur  Bisa diatur  5mm hex male               ~US$60     Sudah punya (6x)  
 ```
 *Angka torsi/arus untuk goBILDA Matrix dan AndyMark NeveRest adalah motor MENTAH tanpa gearbox — dalam kondisi asli, torsinya kecil sekali dan butuh reduksi gigi/pulley di luar motor supaya bisa dipakai buat roller.
 
