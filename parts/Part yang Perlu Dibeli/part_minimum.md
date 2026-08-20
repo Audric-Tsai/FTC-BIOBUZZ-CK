@@ -20,18 +20,17 @@ Cuma part yang BENAR-BENAR wajib dibeli sekarang, dengan asumsi CK pakai part ya
 **Panel/cover: perlu beli material lembaran.** Ketebalan polikarbonat yang paling umum dipakai tim FTC adalah **~3mm (1/8 inci)** — dipakai buat drivetrain plate, intake collector box, dan panel pelindung, karena cukup kuat menahan beban tapi masih gampang dipotong. Ini pilihan utama, plus alternatif material serupa kalau butuh sifat lain (lebih licin, lebih tahan gesekan, dll). Semua link di bawah dari listing teratas Tokopedia/Shopee saat dicari:
 
 ```text
-Material                Ketebalan/Ukuran    Link Beli
---------------------------------------------------------------------------------------------------------------------------------------
-Polikarbonat (Lexan)    3mm (paling umum)   https://shopee.co.id/Polycarbonate-Sheet-3mm-Padat-Bening-Polikarbonat-Lembaran-Clear-i.358312392.3683120743
-Polikarbonat (Lexan)    2mm x 122x244cm     https://www.tokopedia.com/amankaryateknik/polikarbonat-lembaran-polycarbonate-sheet-2-mm-x-122-cm-x-244-cm
-Delrin / Acetal (POM)   6mm (lembaran kecil) https://shopee.co.id/POM-Polyacetal-6mm-15x25cm-(Sheet-Lembaran)-Delrin-i.43613792.2387340703
-HDPE                    6mm, 100x200cm      https://shopee.co.id/Nylon-PE-6mm-x-100cm-x-200cm-Lembaran-(-PolyEthylene-Sheet-HDPE-Plate-)-i.1247310023.49657775429
-UHMW-PE                 12mm, 100x200cm     https://shopee.co.id/UHMWPE-12mm-100cm-x-200cm-Sheet-Lembaran-(-Polyethylene-)-i.43613792.9246365358
-Akrilik (Acrylic)       5mm, 100x200cm      https://shopee.co.id/MIKA-AKRILIK-LEMBARAN-ACRYLIC-SHEET-5MM-X-100CM-X-200CM-i.1277418402.27123815875
-Nylon (PA6)             Rod dia. 25mm x 1m  https://shopee.co.id/Nylon-PA6-Putih-Batangan-(-PA6-Rod-White-)-Dia.-25-mm-x-1000-mm-i.68029486.1409073974
+Material              Ketebalan/Ukuran    Link Beli                                                                                                              
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+Polikarbonat (Lexan)  3mm (paling umum)   https://shopee.co.id/Polycarbonate-Sheet-3mm-Padat-Bening-Polikarbonat-Lembaran-Clear-i.358312392.3683120743           
+Polikarbonat (Lexan)  2mm x 122x244cm     https://www.tokopedia.com/amankaryateknik/polikarbonat-lembaran-polycarbonate-sheet-2-mm-x-122-cm-x-244-cm             
+HDPE                  6mm, 100x200cm      https://shopee.co.id/Nylon-PE-6mm-x-100cm-x-200cm-Lembaran-(-PolyEthylene-Sheet-HDPE-Plate-)-i.1247310023.49657775429  
+UHMW-PE               12mm, 100x200cm     https://shopee.co.id/UHMWPE-12mm-100cm-x-200cm-Sheet-Lembaran-(-Polyethylene-)-i.43613792.9246365358                   
+Akrilik (Acrylic)     5mm, 100x200cm      https://shopee.co.id/MIKA-AKRILIK-LEMBARAN-ACRYLIC-SHEET-5MM-X-100CM-X-200CM-i.1277418402.27123815875                  
+Nylon (PA6)           Rod dia. 25mm x 1m  https://shopee.co.id/Nylon-PA6-Putih-Batangan-(-PA6-Rod-White-)-Dia.-25-mm-x-1000-mm-i.68029486.1409073974             
 ```
 
-Jumlah beli buat masing-masing (2 meter per material) ada di `daftar_belanja.xlsx`, sheet "Daftar Belanja". CATATAN: Delrin biasanya nggak dijual dalam lembaran 2m (biasanya lembaran kecil 15-25cm atau batangan), jadi kalau butuh panjang 2m, kemungkinan harus beli beberapa lembar kecil digabung atau cari penjual custom-cut.
+Jumlah beli buat masing-masing (2 meter per material) ada di `daftar_belanja.xlsx`, sheet "Daftar Belanja".
 
 ## Penggerak
 
