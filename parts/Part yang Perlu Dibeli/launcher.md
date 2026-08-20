@@ -1,4 +1,4 @@
-# Launcher (Flywheel Shooter) — Saran Wheel, Cara Build, dan Referensi
+# Launcher (Flywheel Shooter) — Saran Roda, Cara Build, dan Referensi
 
 Motor sudah diputuskan (pakai yang sudah dimiliki — lihat bagian bawah). Fokus dokumen ini: **wheel yang cocok**, **cara/tips build**, dan **link referensi (guide + video)** buat CK mulai rakit launcher.
 
@@ -6,7 +6,7 @@ Motor sudah diputuskan (pakai yang sudah dimiliki — lihat bagian bawah). Fokus
 
 - 6x UltraPlanetary Gearbox Kit & HD Hex Motor (REV-41-1600) — dikonfigurasi 1 stage rasio rendah (misalnya 3:1) buat RPM tinggi, sama seperti strategi di `intake.md`.
 
-## Saran Wheel
+## Saran Roda
 
 - **2x REV 90mm Traction Wheel (REV-41-1354-PK2)** — sudah dimiliki. REV sendiri menyebut wheel keras/traction cocok dipakai untuk shooter, bukan cuma drivetrain. Coba ini duluan sebagai roda flywheel, nggak perlu beli apa pun.
 - **4x REV 1in Grip Wheel Soft (REV-41-2150-PK4)** — sudah dimiliki, durometer 30A (lunak). Menurut dokumentasi REV bisa juga dipakai di shooter, tapi transfer energinya nggak akan sekencang wheel keras. Cocok buat baseline perbandingan "lunak vs keras" sebelum upgrade.

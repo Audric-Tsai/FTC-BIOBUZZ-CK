@@ -1,4 +1,4 @@
-# Odometry — Sensor, Wheel, dan Setup yang Direkomendasikan
+# Odometry — Sensor, Roda, dan Pengaturan yang Direkomendasikan
 
 Penjelasan konsep odometry (apa itu, jenis-jenisnya, kenapa penting) ada di repo `Dasar-Dasar-FTC`, folder `mechanisms/odometry/`. Di sini fokusnya rekomendasi part konkret buat CK.
 
@@ -12,12 +12,12 @@ SparkFun OTOS (Optical Tracking Odometry Sensor)  PAA5160E1       US$79.95  1 se
 REV Through Bore Encoder V2                       REV-11-3174     US$48.00  Encoder generik buat bikin dead wheel pod sendiri (DIY), butuh 2-3 unit    https://www.revrobotics.com/rev-11-3174/                                                       
 ```
 
-## Wheel untuk Dead Wheel Odometry
+## Roda untuk Dead Wheel Odometry
 
 - [goBILDA Swingarm Odometry Pod (48mm Wheel)](https://www.gobilda.com/swingarm-odometry-pod-48mm-wheel/) — SKU 3110-0001-0001, US$99.99, in stock. Wheel + encoder (2000 CPR) + lengan pegas jadi satu unit, tinggal pasang. Ini yang dipasangkan dengan Pinpoint V2 (butuh 2 unit) ATAU bisa dipakai langsung dengan Through Bore Encoder/port encoder biasa.
 - Alternatif DIY lebih murah: REV Through Bore Encoder V2 + wheel omni kecil yang sudah dimiliki (contoh: sisa dari REV 90mm Omni Wheel di inventaris) + mounting pegas custom (cetak 3D atau beli per komponen) — lebih murah tapi butuh waktu rakit & desain sendiri.
 
-## Setup yang Direkomendasikan
+## Pengaturan yang Direkomendasikan
 
 ### Opsi A — Paling Sederhana: SparkFun OTOS (1 sensor, tanpa roda tambahan)
 

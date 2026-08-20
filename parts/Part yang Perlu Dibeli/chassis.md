@@ -4,7 +4,7 @@ Perbandingan material buat CK mempertimbangkan rangka/panel robot: kelebihan, ke
 
 ## Yang Sudah Dimiliki
 
-Semua part struktural dari 2x Starter Kit V3.1 (C-Channel, extrusion 15mm, plat bracket — lihat `../Parts We Own/parts_we_have.md`) sudah aluminium 6061-T6. Kalau butuh tambahan panjang extrusion/C-Channel, tinggal beli lagi part REV dengan SKU yang sama (REV-41-1762, REV-41-1568, dst — cek katalog REV FTC).
+Semua part struktural dari 2x Starter Kit V3.1 (C-Channel, extrusion 15mm, plat bracket — lihat `../Part yang Dimiliki/parts_we_have.md`) sudah aluminium 6061-T6. Kalau butuh tambahan panjang extrusion/C-Channel, tinggal beli lagi part REV dengan SKU yang sama (REV-41-1762, REV-41-1568, dst — cek katalog REV FTC).
 
 ## Perbandingan Biaya & Massa (Estimasi)
 

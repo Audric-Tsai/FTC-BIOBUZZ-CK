@@ -1,10 +1,10 @@
-# Intake (Roller / Compliant Wheel) — Parts yang Perlu Dibeli
+# Intake (Roller / Compliant Wheel) — Part yang Perlu Dibeli
 
 Musim ini game piece-nya bola, jadi jenis intake yang dipakai adalah **Roller / Compliant Wheel Intake** (lihat penjelasan lengkap jenisnya di repo `Dasar-Dasar-FTC`, folder `mechanisms/intake/01_roller.md`).
 
 ## Yang Sudah Dimiliki (Nggak Perlu Beli Lagi)
 
-Cek `../Parts We Own/parts_we_have.md` — untuk roller intake, part inti berikut ini SUDAH ADA di inventaris CK:
+Cek `../Part yang Dimiliki/parts_we_have.md` — untuk roller intake, part inti berikut ini SUDAH ADA di inventaris CK:
 
 - 4x REV Flap Wheel - 5mm Hex Bore - Medium - 4 Pack (REV-41-2702-PK4) — roller compliant utama
 - 4x REV 1in Grip Wheel - 5mm Hex Bore - Soft (Light Gray) - 4 Pack (REV-41-2150-PK4) — alternatif roller, lebih grippy
