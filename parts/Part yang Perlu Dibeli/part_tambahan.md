@@ -27,6 +27,32 @@ Polikarbonat (Lexan)     Lembaran 3mm, 122x244cm (1 lembar besar)  ~Rp1.17jt    
 Polikarbonat (Lexan)     Lembaran 2mm, 122x244cm                   ~Rp850-925rb                         1.20 g/cm3       Tokopedia                               
 ```
 
+### Plastik Lain Selain Polikarbonat
+
+Ini plastik lain yang umum dipakai tim FTC di luar polikarbonat, dengan karakteristiknya masing-masing (kuat/murah/relatif kuat/relatif murah/relatif tipis) dan link beli konkret di Shopee:
+
+```text
+Material               Karakteristik                                                                Contoh Link Beli (Shopee)                                                                                              
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Delrin / Acetal (POM)  Kuat, presisi tinggi, licin (low friction), relatif mahal                    https://shopee.co.id/POM-Polyacetal-6mm-15x25cm-(Sheet-Lembaran)-Delrin-i.43613792.2387340703                          
+HDPE                   Relatif kuat, murah, ringan, tersedia lembaran relatif tipis                 https://shopee.co.id/Nylon-PE-6mm-x-100cm-x-200cm-Lembaran-(-PolyEthylene-Sheet-HDPE-Plate-)-i.1247310023.49657775429  
+UHMW-PE                Kuat, sangat tahan aus/gesekan, relatif mahal, biasanya lebih tebal          https://shopee.co.id/UHMWPE-12mm-100cm-x-200cm-Sheet-Lembaran-(-Polyethylene-)-i.43613792.9246365358                   
+Akrilik (Acrylic)      Murah, tersedia lembaran tipis (2-3mm), TAPI getas/rapuh - bukan struktural  https://shopee.co.id/Akrilik-Lembaran-Bening-3-mm-Acrylic-Sheet-Transparent-3mm-custom-laser-i.29403022.5739285630     
+Nylon (PA6)            Kuat, tahan aus, relatif mahal, umumnya batangan (rod) bukan lembaran tipis  https://shopee.co.id/nylon-rod-PA6-polyamide-110mm-engineering-plastic-resin-mc-cast-batang-i.418516762.21208902510    
+```
+
+**Delrin / Acetal (POM)** — Plastik "machinable" paling umum di FTC (Game Manual 0 menyebutnya cocok buat motor mount sampai plat drivetrain penuh). Licin dan stabil dimensinya, cocok buat gear, bushing, bagian presisi. Bisa dipotong laser CO2 asal ada ventilasi.
+
+**HDPE** — Alternatif lebih murah dari Delrin, licin juga (self-lubricating), fleksibilitasnya mendekati polikarbonat. Gampang dikerjakan alat tangan/mesin biasa. CATATAN: JANGAN dipotong pakai laser cutter, bisa terbakar.
+
+**UHMW-PE** — Lebih keras dan lebih tahan gesekan/aus dibanding HDPE, cocok buat rail slide atau bagian yang sering bergesekan. Biasanya dijual lebih tebal dari HDPE.
+
+**Akrilik (Acrylic)** — Murah dan gampang didapat lembaran tipis, tapi RAPUH — Game Manual 0 bilang "perlakukan kayak kardus bening mewah", nggak boleh menahan beban. Cuma cocok buat panel dekoratif atau pemandu (funnel) game piece, BUKAN struktur.
+
+**Nylon (PA6)** — Kuat dan tahan aus mirip Delrin, tapi kebanyakan dijual dalam bentuk batangan (rod) bukan lembaran tipis, jadi lebih cocok buat poros/bushing custom daripada panel datar.
+
+**Soal regulasi:** Nggak ada dari lima material di atas yang dilarang FTC secara spesifik. Yang berlaku ke SEMUA material (bukan cuma plastik) adalah dua aturan umum di Game Manual: **R202** (nggak boleh ada sisi tajam yang terekspos — bekas potongan harus dihaluskan/dikikir) dan **R203** (nggak boleh pakai material berbahaya kecuali dilapisi/disegel dengan aman). Selama dua aturan itu dipenuhi, kelimanya legal dipakai.
+
 **Aluminium 6061-T6** — Kuat, mudah dikerjakan (dipotong/dibor/ditap alat biasa), standar ekosistem FTC, paling murah per kg. Kekurangan: paling berat, bisa penyok kena benturan, konduktif listrik.
 
 **Carbon Fiber** — Sangat ringan (~separuh aluminium) dan sangat kaku, cocok buat lengan panjang seperti linear slide. Kekurangan: SANGAT MAHAL (15-30x aluminium per kg), sulit dipotong (butuh alat khusus + masker, debunya berbahaya), rapuh terhadap beban titik/baut, konduktif juga.
