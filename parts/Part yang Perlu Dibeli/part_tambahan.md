@@ -16,15 +16,12 @@ Part opsional/upgrade — nggak wajib, tapi bisa dipertimbangkan kalau part di `
 Perbandingan material kalau butuh alternatif dari aluminium (yang sudah dipakai buat rangka utama):
 
 ```text
-Material                 Contoh Produk                             Harga (perkiraan)                    Massa/Densitas   Sumber Beli                             
------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Aluminium 6061-T6        REV Extrusion/C-Channel (sudah dipakai)   ~US$3.5-6/kg (bahan baku)            2.70 g/cm3       revrobotics.com/ftc/ (part resmi)       
-Carbon Fiber (hobi)      Plat carbon fiber 3mm, 40x50cm            ~Rp900rb - 1.6jt                     1.55-1.60 g/cm3  Tokopedia (cari "plat carbon fiber")    
-Carbon Fiber (industri)  DragonPlate Economy 1/32" 6x6in           US$15 s/d ribuan US$ (lembar besar)  1.55-1.60 g/cm3  dragonplate.com                         
-PETG/ABS (filamen 3D)    Filamen 1kg                               ~US$18-30/kg (~Rp300-500rb/kg)       1.04-1.27 g/cm3  Tokopedia/Shopee (toko filamen lokal)   
-Polikarbonat (Lexan)     Lembaran 3mm, 40x40cm                     ~Rp340rb                             1.20 g/cm3       Tokopedia (cari "polycarbonate sheet")  
-Polikarbonat (Lexan)     Lembaran 3mm, 122x244cm (1 lembar besar)  ~Rp1.17jt                            1.20 g/cm3       Tokopedia                               
-Polikarbonat (Lexan)     Lembaran 2mm, 122x244cm                   ~Rp850-925rb                         1.20 g/cm3       Tokopedia                               
+Material                 Contoh Produk                            Harga (perkiraan)                    Massa/Densitas   Sumber Beli                            
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+Aluminium 6061-T6        REV Extrusion/C-Channel (sudah dipakai)  ~US$3.5-6/kg (bahan baku)            2.70 g/cm3       revrobotics.com/ftc/ (part resmi)      
+Carbon Fiber (hobi)      Plat carbon fiber 3mm, 40x50cm           ~Rp900rb - 1.6jt                     1.55-1.60 g/cm3  Tokopedia (cari "plat carbon fiber")   
+Carbon Fiber (industri)  DragonPlate Economy 1/32" 6x6in          US$15 s/d ribuan US$ (lembar besar)  1.55-1.60 g/cm3  dragonplate.com                        
+PETG/ABS (filamen 3D)    Filamen 1kg                              ~US$18-30/kg (~Rp300-500rb/kg)       1.04-1.27 g/cm3  Tokopedia/Shopee (toko filamen lokal)  
 ```
 
 **Aluminium 6061-T6** — Kuat, mudah dikerjakan (dipotong/dibor/ditap alat biasa), standar ekosistem FTC, paling murah per kg. Kekurangan: paling berat, bisa penyok kena benturan, konduktif listrik.
@@ -33,9 +30,7 @@ Polikarbonat (Lexan)     Lembaran 2mm, 122x244cm                   ~Rp850-925rb 
 
 **Plastik Cetak 3D (PETG/ABS/Nylon)** — Bisa cetak bentuk custom apa saja (bracket, adapter), murah per part, cepat iterasi, ringan. Kekurangan: nggak sekuat logam buat beban besar berulang, butuh akses printer 3D, toleransi dimensi kurang presisi, sensitif suhu.
 
-**Polikarbonat (Lexan)** — Sangat tahan benturan, ringan, bisa transparan, mudah dipotong, harga terjangkau. Kekurangan: bukan buat struktur penahan beban utama (melentur), gampang tergores, perlu washer besar saat dibaut.
-
-**Rekomendasi:** Jangan beli carbon fiber dulu kecuali ada kebutuhan spesifik (lengan ringan & kaku). Polikarbonat oke buat panel penutup/pelindung. Plastik cetak 3D cuma kalau punya akses printer, buat bracket kecil/adapter — bukan struktur utama.
+**Rekomendasi:** Jangan beli carbon fiber dulu kecuali ada kebutuhan spesifik (lengan ringan & kaku). Plastik cetak 3D cuma kalau punya akses printer, buat bracket kecil/adapter — bukan struktur utama. Buat material panel/cover (polikarbonat dan alternatifnya), lihat bab Sasis di `part_minimum.md`.
 
 ## Penggerak
 
