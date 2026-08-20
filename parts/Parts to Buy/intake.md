@@ -4,7 +4,7 @@ Musim ini game piece-nya bola, jadi jenis intake yang dipakai adalah **Roller / 
 
 ## Yang Sudah Dimiliki (Nggak Perlu Beli Lagi)
 
-Cek `parts_we_have.md` — untuk roller intake, part inti berikut ini SUDAH ADA di inventaris CK:
+Cek `../Parts We Own/parts_we_have.md` — untuk roller intake, part inti berikut ini SUDAH ADA di inventaris CK:
 
 - 4x REV Flap Wheel - 5mm Hex Bore - Medium - 4 Pack (REV-41-2702-PK4) — roller compliant utama
 - 4x REV 1in Grip Wheel - 5mm Hex Bore - Soft (Light Gray) - 4 Pack (REV-41-2150-PK4) — alternatif roller, lebih grippy
@@ -48,19 +48,32 @@ Kalau CK tetap mau motor terpisah/khusus buat intake supaya nggak "pinjam" dari 
 - Hindari **AndyMark NeveRest Motor Only** kecuali CK juga beli adapter poros bulat-ke-hex, karena bakal butuh part tambahan yang nggak ada di ekosistem REV DUO yang sudah dipakai.
 - **REV Core Hex Motor** paling gampang dipasang tapi paling lambat — cuma cocok kalau strategi CK nggak butuh roller super cepat.
 
-## Sumber Alternatif di Luar Merek Resmi (Shopee, Tokopedia, Taobao)
+## Part Non-Motor untuk Eksperimen Roller di Luar Ekosistem FTC
 
-**PERINGATAN LEGALITAS:** Peraturan FTC (Game Manual bagian motor legal) mewajibkan motor 12V yang dipakai di robot KOMPETISI harus dari daftar motor yang diizinkan (REV Robotics, goBILDA/Modern Robotics Matrix, AndyMark NeveRest, Tetrix, dan beberapa lagi). Motor DC gearbox generik dari Shopee/Tokopedia/Taobao — meskipun secara elektrik mirip (12V, hex shaft, encoder) — **KEMUNGKINAN BESAR TIDAK LEGAL** dipakai di robot yang bertanding, karena bukan dari merek yang ada di daftar resmi FIRST.
+Ini KHUSUS bagian non-motor dan non-sensor — roller karet, shaft, dan part struktural lain — buat CK coba rakit versi intake sendiri di luar part resmi REV/goBILDA, sekadar untuk eksperimen dan perbandingan desain. (Motor tetap harus dari salah satu dari 4 opsi di tabel perbandingan di atas — nggak dicari alternatif di luar itu.)
 
-Part semacam ini cuma aman dipakai untuk:
-- Robot latihan/prototipe non-kompetisi
-- Belajar mekanisme sebelum pindah ke part resmi
-- Bukan untuk robot yang akan dibawa ke pertandingan resmi
+Catatan: part struktural/mekanis (bukan motor, bukan sensor) nggak kena aturan "motor legal FTC" di atas — sepanjang bentuk akhirnya nggak melanggar batasan ukuran/material robot di Game Manual, part generik untuk roller/shaft/bearing boleh dipakai di robot kompetisi. Tetap double-check ke mentor/wasit kalau ragu.
 
-Yang ditemukan di marketplace lokal/China (hasil pencarian, harga & stok bisa berubah, cek langsung sebelum beli):
+```text
+Kategori          Contoh Part                                                          Sumber                    Catatan
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+Roller karet      Silicone Wheel Set 18x40mm / 24x20mm (roda silikon anti-slip)        Tokopedia (iSeeRobot)     Awalnya buat robot line-tracer/sumo, tapi bentuknya
+                                                                                                                   silinder karet lunak — bisa dites sebagai roller
+                                                                                                                   compliant kalau bore-nya dibubut/diadaptasi ke shaft CK
+Roller karet      "rubber wheels for robot" / "robot silicone wheel"                   AliExpress                Banyak varian diameter & durometer, tapi cek dulu ukuran
+                                                                                                                   bore-nya — kemungkinan besar nggak match 5mm hex REV,
+                                                                                                                   perlu adapter/print custom
+Roller DIY        Surgical Tubing 3mm yang dililit ke hub/roller polos                 Sudah dimiliki (2x)       Cara termurah: bungkus tubing karet ke hub plastik/metal
+                                                                                                                   biar permukaannya jadi compliant, mirip roller pabrikan
+Shaft             As/poros besi atau aluminium bulat (BUKAN hex) diameter 5mm          Toko onderdil/bubut lokal, Lebih murah dari hex shaft REV, tapi HARUS pakai hub/set
+                                                                                       Tokopedia "as besi 5mm"    screw karena nggak ada sisi datar buat gigit torsi —
+                                                                                                                   berisiko selip kalau torsinya besar
+Bearing           Bearing 608 (umum dipakai di skateboard/inline skate)                Toko onderdil/hardware     Sangat murah & mudah dicari di mana saja, tapi ukurannya
+                                                                                       lokal, Tokopedia          nggak match hex bore REV — perlu housing/pillow block custom
+Bearing/pillow    "pillow block bearing for shaft 5mm"                                  Banggood, AliExpress      Lebih dekat ke spek REV (bore 5mm), tapi bentuk pillow
+block                                                                                                             block-nya beda pola lubang mounting, perlu bracket adaptasi
+Shaft collar      Collar set-screw generik ukuran 5mm/6mm/8mm                           Toko hardware/bearing     Fungsinya sama seperti REV Shaft Collar, harga jauh lebih
+                                                                                       lokal, Tokopedia          murah, biasanya cocok tanpa modifikasi
+```
 
-- **Tokopedia** — banyak listing "Motor DC Gearbox Planetary 12V" dengan hex shaft dan encoder (mis. seri "Dinamo DC Motor Gearbox Planetary 12V", atau reseller part robotika lokal). Umumnya generik/tidak bermerek, harga jauh lebih murah dari REV/goBILDA tapi TIDAK ADA di daftar motor legal FTC.
-- **Shopee Indonesia** — pencarian spesifik untuk "compliant wheel" atau "roller intake" FTC nggak ketemu listing yang relevan; kemungkinan besar part-part khusus FTC (compliant wheel dengan hex bore 5mm) memang nggak umum dijual di sini, karena pasarnya niche banget. Kalau ada, biasanya reseller yang re-jual produk REV/goBILDA/AndyMark asli dengan markup, bukan alternatif murah.
-- **Taobao** — ada banyak "Planetary Gear Motor" seri 7203/7204 mengklaim kompatibel goBILDA/Tetrix/REV/FTC (hex shaft 8mm, encoder 3.3-5V), harga jauh lebih murah. Ini kemungkinan clone/tiruan komponen goBILDA — kualitas dan konsistensi spek nggak terjamin, dan tetap TIDAK ADA di daftar motor legal FIRST meskipun mengklaim "FTC compatible".
-
-**Saran:** Part-part di atas boleh dipakai untuk eksperimen/robot latihan supaya CK bisa uji rasio dan desain roller dengan biaya murah, tapi robot yang dibawa ke kompetisi resmi WAJIB pakai motor dari daftar legal (REV Core Hex, REV HD Hex/UltraPlanetary, goBILDA Matrix/Yellow Jacket, atau AndyMark NeveRest) — dan ketiganya sudah ada perbandingannya di tabel di atas.
+**Kesimpulan:** Part roller karet dan bearing generik gampang ditemukan dan murah, tapi hampir semua nggak punya bore hex 5mm seperti standar REV DUO — jadi tetap butuh kerja tambahan (adaptasi/bubut/print adapter) supaya nyambung ke sistem shaft yang CK sudah pakai. Ini cocok buat eksperimen desain roller (bentuk, durometer, pola alur) dengan biaya murah sebelum commit ke part resmi buat robot final.

@@ -1,7 +1,7 @@
-# Parts CK Owns
+# Part yang Sudah Dimiliki CK
 
 ```text
-SKU                Part Name                                                                       Qty
+SKU                Nama Part                                                                       Jml
 ------------------------------------------------------------------------------------------------------
 REV-11-1130-PK4    36in PWM Cable - 4 Pack                                                           2
 REV-31-1108        SRS Programmer                                                                    2

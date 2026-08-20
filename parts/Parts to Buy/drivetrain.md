@@ -1,7 +1,7 @@
-# Drivetrain — Parts yang Perlu Dibeli
+# Drivetrain — Part yang Perlu Dibeli
 
 ```text
-SKU             Part Name                                                    Qty  Purchase Link                                                                            
+SKU             Nama Part                                                    Jml  Link Beli                                                                                
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 REV-45-1655     REV 75mm Mecanum Wheel Set (4 wheels: 2L/2R + hex adapters)  1    https://www.revrobotics.com/rev-45-1655/                                                 
 3213-3606-0002  goBILDA 96mm Mecanum Wheel Set (70A Durometer, 4 wheels)     1    https://www.gobilda.com/96mm-mecanum-wheel-set-70a-durometer-bearing-supported-rollers/  
