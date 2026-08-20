@@ -2,7 +2,7 @@
 
 Cuma part yang BENAR-BENAR wajib dibeli sekarang, dengan asumsi CK pakai part yang sudah dimiliki (lihat `../Part yang Dimiliki/parts_we_have.md`) buat semua yang lain. Untuk opsi upgrade/alternatif, lihat `extra_parts_to_buy.md`.
 
-**Total minimum: ~US$249.94** (cuma Drivetrain + Odometry yang butuh beli)
+**Total minimum:** ~US$241.95 (Rencana A: omni wheel + motor + odometry) atau ~US$349.94 (Rencana B: mecanum wheel + motor + odometry) — tergantung rencana drivetrain yang dipilih. Cuma Drivetrain + Odometry yang butuh beli.
 
 ## Chassis
 
@@ -10,12 +10,35 @@ Cuma part yang BENAR-BENAR wajib dibeli sekarang, dengan asumsi CK pakai part ya
 
 ## Drivetrain
 
-**Wajib beli** — CK belum punya wheel mecanum sama sekali (cuma Omni & Traction Wheel di inventaris), padahal ini drivetrain yang mau dicoba musim ini.
+**Rencananya bangun 2 robot**, dan itu menentukan berapa banyak wheel yang masih perlu dibeli. Ada dua rencana yang lagi dipertimbangkan:
+
+- **Rencana A** — 2 robot yang SAMA PERSIS, masing-masing pakai 4 omni wheel. Total butuh 8 omni wheel; CK cuma punya 4 (2x REV-41-1190-PK2, tiap pack isi 2). **Kurang 4 omni wheel.**
+- **Rencana B** — 2 robot BEDA jenis, satu pakai 4 omni wheel, satu lagi pakai 4 mecanum wheel. Omni wheel yang dipunya (4 buah) udah pas buat robot pertama. Mecanum belum punya sama sekali. **Kurang 4 mecanum wheel** (1 set).
+
+Pilih SATU rencana — belinya beda tergantung mana yang dipakai:
+
+**Kalau Rencana A (2 robot omni):**
 
 ```text
-SKU             Nama Part                                                 Kategori    Harga      Link                                                                                     
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-3213-3606-0002  goBILDA 96mm Mecanum Wheel Set (70A Durometer, 4 wheels)  Drivetrain  US$169.99  https://www.gobilda.com/96mm-mecanum-wheel-set-70a-durometer-bearing-supported-rollers/  
+SKU              Nama Part                                                          Jml  Harga            Link                                      
+----------------------------------------------------------------------------------------------------------------------------------------------------
+REV-41-1190-PK2  REV 90mm Omni Wheel - 2 Pack (tambahan, buat genapkan ke 8 wheel)  2    ~US$31.00 /pack  https://www.revrobotics.com/rev-41-1190/  
+```
+
+**Kalau Rencana B (1 robot omni + 1 robot mecanum):**
+
+```text
+SKU             Nama Part                                                 Jml  Harga      Link                                                                                     
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+3213-3606-0002  goBILDA 96mm Mecanum Wheel Set (70A Durometer, 4 wheels)  1    US$169.99  https://www.gobilda.com/96mm-mecanum-wheel-set-70a-durometer-bearing-supported-rollers/  
+```
+
+**Motor drivetrain (berlaku buat kedua rencana):** tiap robot butuh 4 motor DC (satu per wheel), jadi 2 robot = 8 motor. CK cuma punya 6x UltraPlanetary Gearbox Kit & HD Hex Motor. **Kurang 2 motor.**
+
+```text
+SKU          Nama Part                                  Jml  Harga           Link                                      
+-----------------------------------------------------------------------------------------------------------------------
+REV-41-1600  UltraPlanetary Gearbox Kit & HD Hex Motor  2    US$50.00 /unit  https://www.revrobotics.com/rev-41-1600/  
 ```
 
 ## Odometry
