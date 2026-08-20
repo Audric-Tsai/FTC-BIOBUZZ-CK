@@ -2,7 +2,7 @@
 
 Cuma part yang BENAR-BENAR wajib dibeli sekarang, dengan asumsi CK pakai part yang sudah dimiliki (lihat `../Part yang Dimiliki/part_yang_dimiliki.md`) buat semua yang lain. Untuk opsi upgrade/alternatif, lihat `part_tambahan.md`.
 
-**Total minimum:** tergantung kombinasi rencana Penggerak (Rencana A ~US$162 atau Rencana B ~US$269.99, untuk wheel + motor) dan opsi Odometri (US$159.90 - US$559.94, sudah dikali 2 robot) yang dipilih — lihat detail di masing-masing bab. Cuma bab Penggerak + Odometri yang butuh beli.
+**Total minimum:** tergantung kombinasi rencana Penggerak (Rencana A ~US$162 atau Rencana B ~US$269.99, untuk wheel + motor) dan opsi Odometri (US$159.90 - US$559.94, sudah dikali 2 robot) yang dipilih, PLUS US$200 tetap buat Pelontar (4x HD Hex Motor) — lihat detail di masing-masing bab. Pengambil dan Sasis (rangka utama) tetap 0 dibeli.
 
 ## Daftar Isi
 
@@ -101,11 +101,19 @@ Kalau belum tahu mau pilih yang mana: Opsi 3 (OTOS) paling murah dan paling gamp
 
 ## Pengambil
 
-**0 dibeli.** Sudah punya REV Flap Wheel + REV Grip Wheel (roller compliant) dan Core Hex Motor/HD Hex Motor (motor) yang cukup buat prototipe roller intake musim ini.
+**0 dibeli — sudah lengkap.** Punya 2x Core Hex Motor (REV-41-1300), satu buat masing-masing robot. Intake tiap robot pakai 1x Core Hex Motor. Semuanya sudah cukup buat 2 robot, nggak perlu beli apa-apa lagi buat sekarang.
 
 ## Pelontar
 
-**0 dibeli.** Sudah punya REV 90mm Traction Wheel dan HD Hex Motor yang bisa langsung dites sebagai flywheel sebelum upgrade ke part lain.
+**Wajib beli 4x HD Hex Motor.** Pelontar rencananya pakai 2x HD Hex Motor per robot (ini terpisah dari motor drivetrain di bab Penggerak) — 2 robot x 2 motor = 4 motor. Karena 6x HD Hex Motor yang sudah dimiliki sepenuhnya dialokasikan buat Penggerak, keempat motor buat Pelontar ini HARUS dibeli baru semua.
+
+```text
+SKU          Nama Part                                                      Jml  Harga           Link                                      
+-------------------------------------------------------------------------------------------------------------------------------------------
+REV-41-1600  UltraPlanetary Gearbox Kit & HD Hex Motor (2 per bot x 2 bot)  4    US$50.00 /unit  https://www.revrobotics.com/rev-41-1600/  
+```
+
+Sudah ditambahkan ke `daftar_belanja.xlsx`, sheet "Daftar Belanja".
 
 ## Sensor
 
