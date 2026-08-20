@@ -30,7 +30,7 @@ Akrilik (Acrylic)     5mm, 100x200cm      https://shopee.co.id/MIKA-AKRILIK-LEMB
 Nylon (PA6)           Rod dia. 25mm x 1m  https://shopee.co.id/Nylon-PA6-Putih-Batangan-(-PA6-Rod-White-)-Dia.-25-mm-x-1000-mm-i.68029486.1409073974             
 ```
 
-Jumlah beli buat masing-masing (2 meter per material) ada di `daftar_belanja.xlsx`, sheet "Daftar Belanja".
+Jumlah beli buat masing-masing (2 meter per material) ada di `daftar_belanja.md` (link ke Google Sheets live).
 
 ## Penggerak
 
@@ -113,7 +113,7 @@ SKU          Nama Part                                                      Jml 
 REV-41-1600  UltraPlanetary Gearbox Kit & HD Hex Motor (2 per bot x 2 bot)  4    US$50.00 /unit  https://www.revrobotics.com/rev-41-1600/  
 ```
 
-Sudah ditambahkan ke `daftar_belanja.xlsx`, sheet "Daftar Belanja".
+Sudah ditambahkan ke `daftar_belanja.md` (link ke Google Sheets live).
 
 ## Sensor
 
