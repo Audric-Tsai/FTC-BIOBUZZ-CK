@@ -1,14 +1,23 @@
 # Part Minimum yang Perlu Dibeli
 
-Cuma part yang BENAR-BENAR wajib dibeli sekarang, dengan asumsi CK pakai part yang sudah dimiliki (lihat `../Part yang Dimiliki/parts_we_have.md`) buat semua yang lain. Untuk opsi upgrade/alternatif, lihat `extra_parts_to_buy.md`.
+Cuma part yang BENAR-BENAR wajib dibeli sekarang, dengan asumsi CK pakai part yang sudah dimiliki (lihat `../Part yang Dimiliki/part_yang_dimiliki.md`) buat semua yang lain. Untuk opsi upgrade/alternatif, lihat `part_tambahan.md`.
 
-**Total minimum:** ~US$241.95 (Rencana A: omni wheel + motor + odometry) atau ~US$349.94 (Rencana B: mecanum wheel + motor + odometry) — tergantung rencana drivetrain yang dipilih. Cuma Drivetrain + Odometry yang butuh beli.
+**Total minimum:** ~US$241.95 (Rencana A: omni wheel + motor + odometri) atau ~US$349.94 (Rencana B: mecanum wheel + motor + odometri) — tergantung rencana penggerak yang dipilih. Cuma bab Penggerak + Odometri yang butuh beli.
 
-## Chassis
+## Daftar Isi
+
+- [Sasis](#sasis)
+- [Penggerak](#penggerak)
+- [Odometri](#odometri)
+- [Pengambil](#pengambil)
+- [Pelontar](#pelontar)
+- [Sensor](#sensor)
+
+## Sasis
 
 **0 dibeli.** Extrusion/C-Channel aluminium 6061-T6 dari 2x Starter Kit V3.1 sudah cukup buat rangka dasar. Beli lagi cuma kalau kepanjangan yang dimiliki sudah habis.
 
-## Drivetrain
+## Penggerak
 
 **Rencananya bangun 2 robot**, dan itu menentukan berapa banyak wheel yang masih perlu dibeli. Ada dua rencana yang lagi dipertimbangkan:
 
@@ -33,7 +42,7 @@ SKU             Nama Part                                                 Jml  H
 3213-3606-0002  goBILDA 96mm Mecanum Wheel Set (70A Durometer, 4 wheels)  1    US$169.99  https://www.gobilda.com/96mm-mecanum-wheel-set-70a-durometer-bearing-supported-rollers/  
 ```
 
-**Motor drivetrain (berlaku buat kedua rencana):** tiap robot butuh 4 motor DC (satu per wheel), jadi 2 robot = 8 motor. CK cuma punya 6x UltraPlanetary Gearbox Kit & HD Hex Motor. **Kurang 2 motor.**
+**Motor penggerak (berlaku buat kedua rencana):** tiap robot butuh 4 motor DC (satu per wheel), jadi 2 robot = 8 motor. CK cuma punya 6x UltraPlanetary Gearbox Kit & HD Hex Motor. **Kurang 2 motor.**
 
 ```text
 SKU          Nama Part                                  Jml  Harga           Link                                      
@@ -41,24 +50,24 @@ SKU          Nama Part                                  Jml  Harga           Lin
 REV-41-1600  UltraPlanetary Gearbox Kit & HD Hex Motor  2    US$50.00 /unit  https://www.revrobotics.com/rev-41-1600/  
 ```
 
-## Odometry
+## Odometri
 
-**Wajib beli** — CK belum punya sensor odometry apa pun. SparkFun OTOS dipilih karena paling sederhana dipasang (1 sensor, nggak perlu roda/pegas tambahan).
+**Wajib beli** — CK belum punya sensor odometri apa pun. SparkFun OTOS dipilih karena paling sederhana dipasang (1 sensor, nggak perlu roda/pegas tambahan) — meskipun secara popularitas komunitas FTC ini bukan yang paling umum dipakai (lihat peringkat popularitas di `part_tambahan.md`), OTOS tetap yang paling masuk akal buat mulai karena minim kerja rakit.
 
 ```text
 SKU        Nama Part                                          Kategori  Harga     Link                                                                                     
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-PAA5160E1  SparkFun OTOS (Optical Tracking Odometry Sensor)  Odometry  US$79.95  https://www.sparkfun.com/sparkfun-optical-tracking-odometry-sensor-paa5160e1-qwiic.html  
+PAA5160E1  SparkFun OTOS (Optical Tracking Odometry Sensor)  Odometri  US$79.95  https://www.sparkfun.com/sparkfun-optical-tracking-odometry-sensor-paa5160e1-qwiic.html  
 ```
 
-## Intake
+## Pengambil
 
 **0 dibeli.** Sudah punya REV Flap Wheel + REV Grip Wheel (roller compliant) dan Core Hex Motor/HD Hex Motor (motor) yang cukup buat prototipe roller intake musim ini.
 
-## Launcher
+## Pelontar
 
 **0 dibeli.** Sudah punya REV 90mm Traction Wheel dan HD Hex Motor yang bisa langsung dites sebagai flywheel sebelum upgrade ke part lain.
 
-## Sensors
+## Sensor
 
 **0 dibeli.** Logitech C270 HD Webcam yang sudah dimiliki cukup buat deteksi AprilTag/vision dasar.

@@ -1,8 +1,17 @@
 # Part Tambahan yang Bisa Dibeli
 
-Part opsional/upgrade — nggak wajib, tapi bisa dipertimbangkan kalau part di `minimum_parts_to_buy.md` ternyata kurang setelah dites di robot beneran. Urutan bab sama dengan file minimum: Chassis, Drivetrain, Odometry, Intake, Launcher, Sensors.
+Part opsional/upgrade — nggak wajib, tapi bisa dipertimbangkan kalau part di `part_minimum.md` ternyata kurang setelah dites di robot beneran. Urutan bab sama dengan file minimum: Sasis, Penggerak, Odometri, Pengambil, Pelontar, Sensor.
 
-## Chassis
+## Daftar Isi
+
+- [Sasis](#sasis)
+- [Penggerak](#penggerak)
+- [Odometri](#odometri)
+- [Pengambil](#pengambil)
+- [Pelontar](#pelontar)
+- [Sensor](#sensor)
+
+## Sasis
 
 Perbandingan material kalau butuh alternatif dari aluminium (yang sudah dipakai buat rangka utama):
 
@@ -28,7 +37,7 @@ Polikarbonat (Lexan)     Lembaran 2mm, 122x244cm                   ~Rp850-925rb 
 
 **Rekomendasi:** Jangan beli carbon fiber dulu kecuali ada kebutuhan spesifik (lengan ringan & kaku). Polikarbonat oke buat panel penutup/pelindung. Plastik cetak 3D cuma kalau punya akses printer, buat bracket kecil/adapter — bukan struktur utama.
 
-## Drivetrain
+## Penggerak
 
 Alternatif kalau nggak jadi pakai goBILDA 96mm (di file minimum) — pilih SATU, bukan dua-duanya:
 
@@ -38,9 +47,17 @@ SKU          Nama Part                                                    Harga 
 REV-45-1655  REV 75mm Mecanum Wheel Set (4 wheels: 2L/2R + hex adapters)  US$160.00  https://www.revrobotics.com/rev-45-1655/  
 ```
 
-**REV 75mm Mecanum Wheel Set** — Profil lebih rendah (75mm vs 96mm goBILDA), lebih banyak ruang di bawah sasis buat intake/mekanisme lain. Native fit ke sistem hex 5mm REV DUO (nggak perlu adapter). Pilih ini kalau desain drivetrain CK terbatas ruang vertikalnya; goBILDA 96mm (di file minimum) tetap pilihan default yang lebih umum/terbukti di komunitas FTC.
+**REV 75mm Mecanum Wheel Set** — Profil lebih rendah (75mm vs 96mm goBILDA), lebih banyak ruang di bawah sasis buat intake/mekanisme lain. Native fit ke sistem hex 5mm REV DUO (nggak perlu adapter). Pilih ini kalau desain penggerak CK terbatas ruang vertikalnya; goBILDA 96mm (di file minimum) tetap pilihan default yang lebih umum/terbukti di komunitas FTC.
 
-## Odometry
+## Odometri
+
+### Peringkat Popularitas di Komunitas FTC
+
+Nggak ada survei resmi/statistik pasti soal ini (FIRST nggak merilis data penggunaan part per tim), jadi ini berdasarkan konsensus komunitas (forum, dokumentasi resmi, thread build tim) — bukan angka statistik keras:
+
+1. **Dead wheel generik + encoder (REV Through Bore Encoder, DIY)** — paling umum/paling lama dipakai di FTC. Ini metode default yang diasumsikan hampir semua tutorial & library odometry (termasuk RoadRunner) sejak bertahun-tahun, sebelum ada produk odometry "siap pakai".
+2. **goBILDA Pinpoint** — makin populer belakangan karena menyederhanakan setup (nggak perlu hitung sendiri pose exponential) sambil tetap pakai dead wheel yang akurat. Banyak tim yang tadinya pakai dead wheel generik pindah ke ini sebagai upgrade.
+3. **SparkFun OTOS** — paling baru dari tiga opsi ini, masih dianggap "opsi baru/emerging" di komunitas. Adopsinya lebih sedikit dibanding dua di atas, meskipun secara instalasi paling sederhana (makanya tetap direkomendasikan di file minimum buat CK yang baru mulai).
 
 Upgrade dari SparkFun OTOS (di file minimum) kalau butuh presisi lebih tinggi, atau opsi paling hemat kalau mau rakit sendiri:
 
@@ -52,11 +69,11 @@ SKU             Nama Part                                                  Harga
 REV-11-3174     REV Through Bore Encoder V2 (DIY dead wheel) - butuh 2-3x  US$48.00 /unit  https://www.revrobotics.com/rev-11-3174/                                                       
 ```
 
-**Opsi B — Presisi Tinggi: Pinpoint V2 + 2x Swingarm Odometry Pod** — 1 pod menghadap maju-mundur, 1 pod menghadap kiri-kanan, digabung Pinpoint (fusion IMU, update 1500Hz). Total ~US$279.97. Setup lebih "berat" secara instalasi (butuh ruang 2 pod + kalibrasi trackwidth) tapi jadi standar tim FTC kompetitif yang serius soal presisi.
+**Opsi B — Presisi Tinggi: Pinpoint V2 + 2x Swingarm Odometry Pod** — 1 pod menghadap maju-mundur, 1 pod menghadap kiri-kanan, digabung Pinpoint (fusion IMU, update 1500Hz). Total ~US$279.97. Setup lebih "berat" secara instalasi (butuh ruang 2 pod + kalibrasi trackwidth) tapi jadi standar tim FTC kompetitif yang serius soal presisi — dan ini yang paling banyak dipakai kedua di komunitas.
 
-**Opsi C — Paling Hemat: 2-3x REV Through Bore Encoder V2 (DIY)** — Pasang ke wheel kecil + mounting pegas custom, baca lewat port encoder Expansion/Control Hub langsung (nggak perlu beli coprocessor). Kalau 2 encoder, gabungkan dengan IMU bawaan Control Hub buat heading. Paling murah tapi paling banyak kerja rakit + tuning kode.
+**Opsi C — Paling Hemat & Paling Umum: 2-3x REV Through Bore Encoder V2 (DIY)** — Pasang ke wheel kecil + mounting pegas custom, baca lewat port encoder Expansion/Control Hub langsung (nggak perlu beli coprocessor). Kalau 2 encoder, gabungkan dengan IMU bawaan Control Hub buat heading. Paling murah, paling banyak kerja rakit + tuning kode, tapi ini justru metode yang PALING UMUM dipakai secara historis di komunitas FTC.
 
-## Intake
+## Pengambil
 
 Perbandingan motor kalau nggak jadi pakai HD Hex Motor yang sudah dimiliki (opsi di file minimum adalah $0):
 
@@ -114,7 +131,7 @@ Khusus roller karet, shaft, hub, bearing, collar — buat coba rakit versi intak
 
 **Kesimpulan:** Part ServoCity langsung kompatibel hex 5mm REV tanpa modifikasi. Part Tokopedia/AliExpress jauh lebih murah tapi hampir semua bore-nya BUKAN hex 5mm — butuh hub/coupler adapter (dari daftar ServoCity di atas, atau print custom).
 
-## Launcher
+## Pelontar
 
 Upgrade motor & wheel kalau part yang sudah dimiliki (di file minimum) kurang kencang/kurang jauh:
 
@@ -149,7 +166,7 @@ NA              goBILDA GripForce Wheel (40A Durometer) - cek varian traction no
 - [Functional ChooChoo Catapult: FTC Decode](https://www.youtube.com/shorts/7JoVEDv8vUE)
 - [Reliable Shooter With Servo Launcher — Team 24909 StarLight](https://www.youtube.com/shorts/9El5UcekiR0)
 
-## Sensors
+## Sensor
 
 Upgrade dari kamera Logitech C270 yang sudah dimiliki (di file minimum $0):
 
