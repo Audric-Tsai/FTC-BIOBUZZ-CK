@@ -1,33 +1,41 @@
-# Launcher (Flywheel Shooter) — Part yang Perlu Dibeli
+# Launcher (Flywheel Shooter) — Saran Wheel, Cara Build, dan Referensi
 
-Rekomendasi ini untuk mekanisme launcher jenis flywheel (lihat jenis-jenisnya di repo `Dasar-Dasar-FTC`, folder `mechanisms/launcher/`). Fokusnya di dua hal yang paling menentukan performa: **wheel yang keras/high-durometer** (biar transfer energi maksimal) dan **motor RPM tinggi**.
+Motor sudah diputuskan (pakai yang sudah dimiliki — lihat bagian bawah). Fokus dokumen ini: **wheel yang cocok**, **cara/tips build**, dan **link referensi (guide + video)** buat CK mulai rakit launcher.
 
-## Yang Sudah Dimiliki (Bisa Dites Dulu Sebelum Beli)
+## Motor (Sudah Ada, Nggak Perlu Beli)
 
-- 2x REV 90mm Traction Wheel (REV-41-1354-PK2) — REV sendiri menyebut wheel keras/traction cocok dipakai untuk shooter, bukan cuma drivetrain. Ini bisa langsung dites sebagai roda flywheel pertama tanpa beli apa pun.
-- 4x REV 1in Grip Wheel Soft (REV-41-2150-PK4) — durometer 30A (lunak), menurut dokumentasi REV bisa juga dipakai di shooter, tapi karena lunak, transfer energinya nggak akan sekencang wheel keras. Cocok buat baseline perbandingan "lunak vs keras".
-- 6x UltraPlanetary Gearbox Kit & HD Hex Motor (REV-41-1600) — bisa dikonfigurasi 1 stage rasio rendah (misalnya 3:1) buat RPM tinggi, sama seperti strategi di `intake.md`. Ini opsi motor gratis (nggak perlu beli) untuk mulai prototipe flywheel.
+- 6x UltraPlanetary Gearbox Kit & HD Hex Motor (REV-41-1600) — dikonfigurasi 1 stage rasio rendah (misalnya 3:1) buat RPM tinggi, sama seperti strategi di `intake.md`.
 
-## Part yang Direkomendasikan untuk Dibeli
+## Saran Wheel
 
-```text
-SKU               Nama Part                                                             Jml  Link Beli
------------------------------------------------------------------------------------------------------------------------------------------------------------
-5204-8002-0003    goBILDA Yellow Jacket Planetary Gear Motor (3.7:1, 1620 RPM, 8mm REX)   1    https://www.gobilda.com/5204-series-yellow-jacket-planetary-gear-motor-3-7-1-ratio-80mm-length-8mm-rex-shaft-1620-rpm-3-3-5v-encoder/
-NA                goBILDA GripForce Mecanum/Traction Wheel (40A Durometer) — cek varian    1    https://www.gobilda.com/gripforce-mecanum-wheel-set-o104mm-40a-durometer-rollers/
-                  non-mecanum kalau tersedia, atau pakai Traction Wheel biasa yang lebih keras
-```
+- **2x REV 90mm Traction Wheel (REV-41-1354-PK2)** — sudah dimiliki. REV sendiri menyebut wheel keras/traction cocok dipakai untuk shooter, bukan cuma drivetrain. Coba ini duluan sebagai roda flywheel, nggak perlu beli apa pun.
+- **4x REV 1in Grip Wheel Soft (REV-41-2150-PK4)** — sudah dimiliki, durometer 30A (lunak). Menurut dokumentasi REV bisa juga dipakai di shooter, tapi transfer energinya nggak akan sekencang wheel keras. Cocok buat baseline perbandingan "lunak vs keras" sebelum upgrade.
+- **goBILDA GripForce Wheel (40A Durometer)** — kalau setelah tes Traction Wheel yang dimiliki masih kurang keras/kurang jauh lontarannya, ini opsi upgrade. [Link produk](https://www.gobilda.com/gripforce-mecanum-wheel-set-o104mm-40a-durometer-rollers/) (varian mecanum — cek juga varian traction/non-mecanum di katalog goBILDA kalau tersedia).
+- **Prinsip umum:** semakin keras (durometer tinggi) wheel-nya, semakin banyak energi yang tersalur ke game piece saat kontak — ini prinsip dasar yang dipakai buat pilih/upgrade wheel launcher, kebalikan dari wheel intake yang justru harus lunak/compliant.
 
-### Penjelasan
+## Cara Build — Hal-Hal Penting
 
-**goBILDA Yellow Jacket 3.7:1 (1620 RPM)** — RPM bebasnya jauh lebih tinggi dari REV HD Hex Motor konfigurasi standar, cocok buat flywheel yang butuh kecepatan lontar tinggi. CATATAN PENTING: shaft-nya 8mm REX (standar goBILDA), BUKAN hex 5mm REV — jadi WAJIB pakai hub/adapter goBILDA-ke-REV atau ganti sistem mounting roda supaya nyambung ke wheel REV yang CK punya. Harga $56.99, stok tersedia saat dicek.
+1. **Jarak "squeeze" antar wheel dan dinding (atau antar dua flywheel)** — semakin ketat jepitannya, semakin besar gaya gesek yang tersalur ke game piece, tapi juga semakin besar beban motor. Ini parameter yang paling sering di-tuning ulang setelah tes lapangan pertama.
+2. **RPM adalah variabel utama buat atur jarak tembak** — biasanya di-adjust dari kode (bukan diubah fisik) supaya bisa disesuaikan tanpa bongkar robot.
+3. **Pakai kontrol PID buat jaga RPM tetap stabil** — tanpa PID, flywheel gampang overshoot/undershoot RPM setiap kali menembak, bikin akurasi nggak konsisten. Ini rekomendasi kuat dari semua sumber referensi di bawah.
+4. **Uji spin-up time** — catat berapa lama flywheel butuh waktu sampai RPM target sebelum menembak; ini penting buat strategi timing waktu pertandingan.
 
-**Wheel durometer keras (GripForce/Traction 40A ke atas)** — Studica (partner resmi REV/goBILDA) mengonfirmasi "harder wheels transfer more energy" untuk shooter. REV Traction Wheel yang sudah dimiliki (durometer medium-hard) adalah titik awal yang bagus; kalau butuh lebih keras lagi/upgrade setelah tes, cek varian GripForce atau Traction Wheel durometer tertinggi dari REV/goBILDA.
+## Link Panduan Build
 
-### Rekomendasi
+- [REV Robotics — Flywheel Launcher (FTC Kickoff Concepts)](https://docs.revrobotics.com/ftc-kickoff-concepts/ultimate-goal-2020-2021/shooter) — penjelasan desain double flywheel dari REV sendiri, termasuk kenapa motor kedua mempercepat lagi setelah motor pertama
+- [Game Manual 0 — Common Mechanisms](https://gm0.org/en/latest/docs/common-mechanisms/index.html) — panduan umum mekanisme FTC (termasuk shooter), sumber referensi paling lengkap dan sering dipakai tim FTC
+- [Purdue SIGBots Wiki — Flywheel](https://wiki.purduesigbots.com/hardware/shooting-mechanisms/flywheel) — penjelasan fisika & desain flywheel yang detail (dari komunitas VEX, tapi prinsipnya sama persis buat FTC)
+- [YETI Robotics Wiki — Shooter Designs](https://wiki.yetirobotics.org/books/design-process/page/shooter-designs) — perbandingan desain shooter dari tim FRC berpengalaman
+- [Instructables — Servo Powered Catapult](https://www.instructables.com/Servo-Powered-Catapult/) — kalau CK mau coba jenis catapult juga sebagai perbandingan
 
-**Coba dulu pakai part yang sudah dimiliki** — REV Traction Wheel + HD Hex Motor (1 stage rasio rendah) — sebelum beli apa pun. Kalau setelah dites RPM-nya masih kurang buat jarak tembak yang diinginkan, baru pertimbangkan beli goBILDA Yellow Jacket 3.7:1 (paling gampang didapat & harganya wajar), dengan catatan siapkan adapter shaft 8mm REX ke hex 5mm REV.
+## Link Video YouTube
+
+- [Shooter Part 1 - FTC Ultimate Goal 2020-2021 Prototyping](https://www.youtube.com/watch?v=eHVtErHj9lg) — proses prototipe shooter REV dari nol, langkah demi langkah
+- [How To Make Flywheel Shooters](https://www.youtube.com/watch?v=Q_BKq6YykDY) — tutorial umum bikin flywheel shooter
+- [FIRST Global Flywheel Shooter Tutorial](https://www.youtube.com/watch?v=An3xoJgk2uI) — tutorial flywheel dari kompetisi FIRST Global, prinsipnya sama dipakai di FTC
+- [Functional ChooChoo Catapult: FTC Decode](https://www.youtube.com/shorts/7JoVEDv8vUE) — contoh catapult musim FTC DECODE, buat perbandingan kalau nggak jadi pakai flywheel
+- [Reliable Shooter With Servo Launcher — Team 24909 StarLight](https://www.youtube.com/shorts/9El5UcekiR0) — servo launcher dari tim FTC musim DECODE, dibuat dalam waktu singkat (Robot in 30 Hours)
 
 ## Legalitas
 
-Semua part di atas (goBILDA Yellow Jacket, REV Traction/Grip Wheel) ada di ekosistem resmi FTC, jadi aman dipakai di robot kompetisi — beda dengan bagian marketplace generik yang dibahas di `intake.md` (yang cuma untuk part non-motor/eksperimen).
+Semua wheel (REV Traction/Grip Wheel, goBILDA GripForce) dan motor (HD Hex Motor yang sudah dimiliki) ada di ekosistem resmi FTC, jadi aman dipakai di robot kompetisi.

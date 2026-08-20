@@ -29,16 +29,6 @@ REV HD Hex Motor — UltraPlanetary Kit   Bisa diatur   Bisa diatur    Bisa diat
 ```
 *Angka torsi/arus untuk goBILDA Matrix dan AndyMark NeveRest adalah motor MENTAH tanpa gearbox — dalam kondisi asli, torsinya kecil sekali dan butuh reduksi gigi/pulley di luar motor supaya bisa dipakai buat roller.
 
-### Penjelasan Tiap Motor
-
-**goBILDA Matrix 12V DC Motor** — Motor mentah (cell RS-555) berkecepatan sangat tinggi, sering dipakai sebagai "jantung" dari gearbox Yellow Jacket goBILDA. Bagus kalau kamu mau bikin roller yang berputar sangat cepat (misalnya lewat reduksi pulley/sprocket kecil ke besar), tapi karena nggak ada gearbox bawaan, kamu harus rakit sendiri sistem reduksinya. Perlu dicek lagi harga & ketersediaan terbaru di gobilda.com karena beberapa varian SKU sempat discontinued.
-
-**AndyMark NeveRest Motor Only** — Paling murah dari semua opsi, dan legal FTC (pakai motor dasar am-3104 yang ada di daftar motor legal FTC). Tapi poros outputnya bulat 3.175mm, BUKAN hex 5mm seperti standar REV/goBILDA — jadi butuh adapter atau hub tambahan supaya bisa nyambung ke hex shaft/roller yang CK pakai. Torsi mentahnya juga sangat kecil, wajib pakai reduksi luar.
-
-**REV Core Hex Motor** — Sudah dimiliki, tinggal pakai. Plug-and-play karena sudah ada gearbox 72:1 built-in dan poros hex 5mm female. Tapi RPM-nya cuma 125 — buat roller intake ini agak lambat, biasanya perlu step-up (bukan step-down) lewat sprocket kalau mau roller berputar lebih cepat dari 125 RPM.
-
-**REV HD Hex Motor (UltraPlanetary Kit)** — Sudah dimiliki 6 unit. Ini yang paling fleksibel: gearbox-nya modular, kamu bisa pasang cuma 1 stage (rasio kecil seperti 3:1 atau 4:1) supaya RPM output jadi tinggi dan cocok buat roller intake yang butuh putaran cepat. Nggak perlu beli apa-apa, tinggal rakit ulang salah satu kit yang sudah ada dengan konfigurasi rasio rendah.
-
 ### Rekomendasi
 
 **Pakai REV HD Hex Motor (UltraPlanetary Kit) yang sudah dimiliki, dikonfigurasi 1 stage rasio rendah (3:1 atau 4:1).** Ini pilihan paling murah (nggak perlu beli motor baru sama sekali) dan paling fleksibel karena rasionya bisa disetel ulang kalau ternyata kurang/kelebihan RPM setelah dites.
@@ -50,30 +40,53 @@ Kalau CK tetap mau motor terpisah/khusus buat intake supaya nggak "pinjam" dari 
 
 ## Part Non-Motor untuk Eksperimen Roller di Luar Ekosistem FTC
 
-Ini KHUSUS bagian non-motor dan non-sensor — roller karet, shaft, dan part struktural lain — buat CK coba rakit versi intake sendiri di luar part resmi REV/goBILDA, sekadar untuk eksperimen dan perbandingan desain. (Motor tetap harus dari salah satu dari 4 opsi di tabel perbandingan di atas — nggak dicari alternatif di luar itu.)
+Ini KHUSUS bagian non-motor dan non-sensor — roller karet, shaft, hub, bearing, collar — buat CK coba rakit versi intake sendiri di luar part resmi REV/goBILDA, sekadar untuk eksperimen dan perbandingan desain. (Motor tetap harus dari salah satu dari 4 opsi di tabel perbandingan di atas — nggak dicari alternatif di luar itu.)
 
 Catatan: part struktural/mekanis (bukan motor, bukan sensor) nggak kena aturan "motor legal FTC" di atas — sepanjang bentuk akhirnya nggak melanggar batasan ukuran/material robot di Game Manual, part generik untuk roller/shaft/bearing boleh dipakai di robot kompetisi. Tetap double-check ke mentor/wasit kalau ragu.
 
-```text
-Kategori          Contoh Part                                                          Sumber                    Catatan
---------------------------------------------------------------------------------------------------------------------------------------------------------------
-Roller karet      Silicone Wheel Set 18x40mm / 24x20mm (roda silikon anti-slip)        Tokopedia (iSeeRobot)     Awalnya buat robot line-tracer/sumo, tapi bentuknya
-                                                                                                                   silinder karet lunak — bisa dites sebagai roller
-                                                                                                                   compliant kalau bore-nya dibubut/diadaptasi ke shaft CK
-Roller karet      "rubber wheels for robot" / "robot silicone wheel"                   AliExpress                Banyak varian diameter & durometer, tapi cek dulu ukuran
-                                                                                                                   bore-nya — kemungkinan besar nggak match 5mm hex REV,
-                                                                                                                   perlu adapter/print custom
-Roller DIY        Surgical Tubing 3mm yang dililit ke hub/roller polos                 Sudah dimiliki (2x)       Cara termurah: bungkus tubing karet ke hub plastik/metal
-                                                                                                                   biar permukaannya jadi compliant, mirip roller pabrikan
-Shaft             As/poros besi atau aluminium bulat (BUKAN hex) diameter 5mm          Toko onderdil/bubut lokal, Lebih murah dari hex shaft REV, tapi HARUS pakai hub/set
-                                                                                       Tokopedia "as besi 5mm"    screw karena nggak ada sisi datar buat gigit torsi —
-                                                                                                                   berisiko selip kalau torsinya besar
-Bearing           Bearing 608 (umum dipakai di skateboard/inline skate)                Toko onderdil/hardware     Sangat murah & mudah dicari di mana saja, tapi ukurannya
-                                                                                       lokal, Tokopedia          nggak match hex bore REV — perlu housing/pillow block custom
-Bearing/pillow    "pillow block bearing for shaft 5mm"                                  Banggood, AliExpress      Lebih dekat ke spek REV (bore 5mm), tapi bentuk pillow
-block                                                                                                             block-nya beda pola lubang mounting, perlu bracket adaptasi
-Shaft collar      Collar set-screw generik ukuran 5mm/6mm/8mm                           Toko hardware/bearing     Fungsinya sama seperti REV Shaft Collar, harga jauh lebih
-                                                                                       lokal, Tokopedia          murah, biasanya cocok tanpa modifikasi
-```
+### Shaft 5mm Hex Asli (langsung kompatibel REV, sumber non-REV tapi resmi)
 
-**Kesimpulan:** Part roller karet dan bearing generik gampang ditemukan dan murah, tapi hampir semua nggak punya bore hex 5mm seperti standar REV DUO — jadi tetap butuh kerja tambahan (adaptasi/bubut/print adapter) supaya nyambung ke sistem shaft yang CK sudah pakai. Ini cocok buat eksperimen desain roller (bentuk, durometer, pola alur) dengan biaya murah sebelum commit ke part resmi buat robot final.
+ServoCity adalah perusahaan induk goBILDA — shaft & hub 5mm hex mereka memang dirancang kompatibel dengan sistem hex REV/goBILDA, jadi nggak perlu adaptasi:
+
+- [5mm x 150mm Stainless Steel Precision Shafting](https://www.servocity.com/5mm-x-150mm-stainless-steel-precision-shafting/) — ServoCity
+- [5mm x 200mm Stainless Steel Precision Shafting](https://www.servocity.com/5mm-x-200mm-stainless-steel-precision-shafting/) — ServoCity
+- [5mm x 250mm Stainless Steel Precision Shafting](https://www.servocity.com/5mm-x-250mm-stainless-steel-precision-shafting/) — ServoCity
+- [5mm x 300mm Stainless Steel Precision Shafting](https://www.servocity.com/5mm-x-300mm-stainless-steel-precision-shafting/) — ServoCity
+- [1310 Series Hyper Hub (5mm Hex Bore)](https://www.servocity.com/1310-series-hyper-hub-5mm-hex-bore/) — ServoCity, hub heavy-duty buat pasang komponen goBILDA ke shaft hex REV
+- [1309 Series Sonic Hub (5mm Hex Bore)](https://www.servocity.com/1309-series-sonic-hub-5mm-hex-bore/) — ServoCity
+- [5mm Hex Clamping Hub](https://www.servocity.com/5mm-hex-clamping-hub/) — ServoCity, buat pasang roller/roda custom ke shaft hex tanpa las/bor tambahan
+- [5mm Hex Bore Couplers](https://www.servocity.com/5mm-hex-bore-couplers/) — ServoCity, kategori coupler bore hex 5mm (banyak varian)
+
+### Shaft Collar & Coupler (round-to-round, buat gabung shaft campuran)
+
+- [2920 Series Steel Set-Screw Collar (5mm Bore) - 2 Pack](https://www.servocity.com/2920-series-steel-set-screw-collar-5mm-bore-2-pack/) — ServoCity, ~US$4.99, fungsi sama seperti REV Shaft Collar
+- [5mm to 6mm Set-Screw Shaft Coupler](https://www.servocity.com/5mm-to-6mm-set-screw-shaft-coupler/) — ServoCity, ~US$4.99, buat sambung shaft 5mm ke part 6mm (kalau pakai bearing/roller generik yang bore-nya 6mm)
+- [4mm to 5mm Set-Screw Shaft Coupler](https://www.servocity.com/4mm-to-5mm-set-screw-shaft-coupler/) — ServoCity, ~US$4.99
+- [0.250" to 5mm Set-Screw Shaft Coupler](https://www.servocity.com/0-250-to-5mm-set-screw-shaft-coupler/) — ServoCity, ~US$4.99, buat sambung ke shaft ukuran inci
+
+### Hub Adapter Hex ke Roda Generik
+
+- [5mm Metal Combiner Wheel Hub Hex Adapter](https://www.aliexpress.com/item/1005001950511773.html) — AliExpress, adapter hub metal hex 5mm buat pasang roda RC/generik ke shaft hex
+
+### Bearing Generik (murah, TAPI bore-nya BUKAN hex — perlu housing/collar tambahan)
+
+- [Bearing Lakher 608 RS](https://www.tokopedia.com/venny-vioren-etdrgds/bearing-lakher-608-rs-inline-skate-skateboard-sepatu-roda-1730197308122694698) — Tokopedia, bearing 608 umum (8x22x7mm), sangat murah
+- [Ceramic Ball Bearing 608](https://www.tokopedia.com/tokokerabit/fashion-ceramic-ball-bearing-608-skateboard-black-finger-fidget-spinner-toy-replacement-1732090656167199905) — Tokopedia
+- [Pro 608 ZZ (ABEC-7) — isi 10 pcs](https://www.tokopedia.com/zay-yana/alm1-8-10-pieces-pro-608-zz-abec-7-roller-skate-bearing) — Tokopedia
+- [Laher/Bearing 608 Z](https://www.tokopedia.com/rivajayamotor/laher-bearing-608-z) — Tokopedia
+
+### Roller/Roda Karet untuk Eksperimen Compliant Wheel
+
+- [iSeeRobot Silicone Wheel Set 18x40mm](https://www.tokopedia.com/isee/silicone-wheel-set-18-x-40mm-roda-silikon-karet-anti-slip-roda-line-tracer-roda-robot-sumo-silicone-only-7edaf) — Tokopedia, roda silikon anti-slip (awalnya buat robot sumo/line-tracer)
+- [iSeeRobot Silicone Wheel Set 24x20mm](https://www.tokopedia.com/isee/silicone-wheel-set-24-x-20mm-roda-silikon-karet-anti-slip-roda-line-tracer-roda-robot-sumo-silicone-only-fb9ce) — Tokopedia
+- [Roda Karet ABU Troli Kastor Caster (3/4/5 inch, dengan bearing)](https://www.tokopedia.com/inspiretech/roda-karet-abu-troli-kastor-caster-trolley-mati-hidup-rem-bahan-tebal-heavy-duty-dengan-bearing-tatakan-3-4-5inch-1731271202333099147) — Tokopedia, roda karet troli, sudah ada bearing bawaan
+- [Roda Karet 4" (100mm) tanpa rumah](https://www.tokopedia.com/esihsalsihh/roda-karet-4-roda-saja-roda-troli-4-inci-roda-tanpa-rumah-4-inch-100mm) — Tokopedia
+- [Roller Roda Karet Kecil (multifungsi, logam)](https://www.tokopedia.com/jual-grosir-perabot-lokal/original-roller-roda-karet-alat-bantu-pemasangan-multifungsi-logam-1729606582922675329) — Tokopedia
+- [Roda Karet 4 Inchi 1 Set Roda Miniatur](https://www.tokopedia.com/alluneedsshop/roda-karet-4-inchi-1-set-roda-miniatur-roda-as-1729946318723451047) — Tokopedia
+- [Rubber Coated Conveyor Belt Roller](https://www.aliexpress.com/item/1005008987356216.html) — AliExpress
+- [2" Small Rubber Roller with Shaft](https://www.aliexpress.com/item/32668436059.html) — AliExpress, sudah termasuk shaft-nya sendiri
+- Surgical Tubing 3mm yang dililit ke hub/roller polos — Sudah dimiliki (2x) — cara termurah, bungkus tubing karet ke hub plastik/metal biar permukaannya jadi compliant, mirip roller pabrikan
+
+### Kesimpulan
+
+Yang dari **ServoCity** (bagian shaft/hub/coupler di atas) langsung kompatibel dengan sistem hex 5mm REV — bisa dipakai tanpa modifikasi karena memang satu ekosistem sama goBILDA. Yang dari **Tokopedia/AliExpress** (bearing 608, roda karet/silikon) jauh lebih murah tapi hampir semua bore-nya BUKAN hex 5mm — jadi tetap butuh salah satu hub/coupler adapter (dari daftar ServoCity di atas, atau print custom) supaya nyambung ke shaft yang CK pakai. Cocok buat eksperimen desain roller (bentuk, durometer, pola alur) dengan biaya murah sebelum commit ke part resmi buat robot final.
