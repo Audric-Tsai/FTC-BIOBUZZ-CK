@@ -35,7 +35,7 @@ REV-41-1190-PK2  REV 90mm Omni Wheel - 2 Pack (tambahan, buat genapkan ke 8 whee
 ```text
 Nama Part       Jml  Harga                
 ------------------------------------------
-Mecanum Wheels  12   12 buah = Rp2.000.000  
+Mecanum Wheels  12   12 buah = Rp2.400.000  
 ```
 
 **Motor penggerak (berlaku buat kedua rencana):** tiap robot butuh 4 motor DC (satu per wheel), jadi 2 robot = 8 motor. CK cuma punya 6x UltraPlanetary Gearbox Kit & HD Hex Motor. **Kurang 2 motor.**
