@@ -13,21 +13,6 @@
 
 **Rangka utama: 0 dibeli.** Extrusion/C-Channel aluminium 6061-T6 dari 2x Starter Kit V3.1 sudah cukup buat rangka dasar. Beli lagi cuma kalau kepanjangan yang dimiliki sudah habis.
 
-**Panel/cover: perlu beli material lembaran.** Ketebalan polikarbonat yang paling umum dipakai tim FTC adalah **~3mm (1/8 inci)** — dipakai buat drivetrain plate, intake collector box, dan panel pelindung, karena cukup kuat menahan beban tapi masih gampang dipotong. Ini pilihan utama, plus alternatif material serupa kalau butuh sifat lain (lebih licin, lebih tahan gesekan, dll). Semua link di bawah dari listing teratas Tokopedia/Shopee saat dicari:
-
-```text
-Material              Ketebalan/Ukuran    Link Beli                                                                                                              
------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Polikarbonat (Lexan)  3mm (paling umum)   https://shopee.co.id/Polycarbonate-Sheet-3mm-Padat-Bening-Polikarbonat-Lembaran-Clear-i.358312392.3683120743           
-Polikarbonat (Lexan)  2mm x 122x244cm     https://www.tokopedia.com/amankaryateknik/polikarbonat-lembaran-polycarbonate-sheet-2-mm-x-122-cm-x-244-cm             
-HDPE                  6mm, 100x200cm      https://shopee.co.id/Nylon-PE-6mm-x-100cm-x-200cm-Lembaran-(-PolyEthylene-Sheet-HDPE-Plate-)-i.1247310023.49657775429  
-UHMW-PE               12mm, 100x200cm     https://shopee.co.id/UHMWPE-12mm-100cm-x-200cm-Sheet-Lembaran-(-Polyethylene-)-i.43613792.9246365358                   
-Akrilik (Acrylic)     5mm, 100x200cm      https://shopee.co.id/MIKA-AKRILIK-LEMBARAN-ACRYLIC-SHEET-5MM-X-100CM-X-200CM-i.1277418402.27123815875                  
-Nylon (PA6)           Rod dia. 25mm x 1m  https://shopee.co.id/Nylon-PA6-Putih-Batangan-(-PA6-Rod-White-)-Dia.-25-mm-x-1000-mm-i.68029486.1409073974             
-```
-
-Jumlah beli buat masing-masing (2 meter per material) ada di `daftar_belanja.md` (link ke Google Sheets live).
-
 ## Penggerak
 
 **Rencananya bangun 2 robot**, dan itu menentukan berapa banyak wheel yang masih perlu dibeli. Ada dua rencana yang lagi dipertimbangkan:
