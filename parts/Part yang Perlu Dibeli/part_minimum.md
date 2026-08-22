@@ -32,30 +32,11 @@ SKU              Nama Part                                                      
 REV-41-1190-PK2  REV 90mm Omni Wheel - 2 Pack (tambahan, buat genapkan ke 8 wheel)  2    ~US$31.00 /pack  https://www.revrobotics.com/rev-41-1190/  
 ```
 
-**Kalau Rencana B (2 robot mecanum):**
+**Kalau Rencana B (2 robot mecanum):** Mecanum — by Audric.
 
-```text
-Nama Part       Jml  Harga                
-------------------------------------------
-Mecanum Wheels  12   12 buah = Rp2.400.000  
-```
+**Kalau Rencana C (1 robot omni + 1 robot mecanum):** robot omni sudah 0 kurang (pakai 4 wheel yang dipunya). Mecanum — by Audric.
 
-**Kalau Rencana C (1 robot omni + 1 robot mecanum):** robot omni sudah 0 kurang (pakai 4 wheel yang dipunya), tinggal beli mecanum buat robot kedua —
-
-```text
-SKU             Nama Part                                                 Jml  Harga      Link                                                                                     
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-3213-3606-0002  goBILDA 96mm Mecanum Wheel Set (70A Durometer, 4 wheels)  1    US$169.99  https://www.gobilda.com/96mm-mecanum-wheel-set-70a-durometer-bearing-supported-rollers/  
-```
-
-**Kalau Rencana D (2 robot omni, beda ukuran — besar + kecil):** robot wheel besar sudah 0 kurang (pakai 4x REV 90mm yang dipunya), tinggal beli wheel kecil buat robot kedua —
-
-```text
-SKU              Nama Part                                                   Jml  Harga           Link                                                                
---------------------------------------------------------------------------------------------------------------------------------------------------------------------
-3624-4008-0032   goBILDA 32mm Omni Wheel (8mm REX Bore, 50A Durometer)       4    US$14.99 /unit  https://www.gobilda.com/3624-series-omni-wheel-8mm-rex-bore-32mm-diameter-50a-durometer/  
-```
-Subtotal: 4 x US$14.99 = **US$59.96**
+**Kalau Rencana D (2 robot omni, beda ukuran — besar + kecil):** robot wheel besar sudah 0 kurang (pakai 4x REV 90mm yang dipunya). Omni kecil 70mm — by Audric.
 
 **Motor penggerak (berlaku buat semua rencana):** tiap robot butuh 4 motor DC (satu per wheel), jadi 2 robot = 8 motor. CK cuma punya 6x UltraPlanetary Gearbox Kit & HD Hex Motor. **Kurang 2 motor.**
 
