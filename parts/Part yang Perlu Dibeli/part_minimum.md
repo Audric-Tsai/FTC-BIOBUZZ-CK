@@ -48,9 +48,9 @@ REV-41-1600  UltraPlanetary Gearbox Kit & HD Hex Motor  2    US$50.00 /unit  htt
 
 ## Odometri
 
-**Wajib beli** — CK belum punya sensor odometri apa pun. Karena rencananya bangun 2 robot, dan robot kedua harus punya part yang sama dengan robot pertama, semua jumlah di bawah ini SUDAH DIKALIKAN 2 (bukan cuma buat 1 robot). Pilih SATU dari tiga opsi berikut — urutan sesuai peringkat popularitas di komunitas FTC (lihat `part_tambahan.md` buat penjelasan lengkap kenapa urutannya begitu):
+**Wajib beli** — CK belum punya sensor odometri apa pun. Karena rencananya bangun 2 robot, dan robot kedua harus punya part yang sama dengan robot pertama, semua jumlah di bawah ini SUDAH DIKALIKAN 2 (bukan cuma buat 1 robot).
 
-**Opsi 1 — Paling Umum Dipakai: Dead Wheel DIY pakai REV Through Bore Encoder V2** (2 encoder per robot x 2 robot = 4 unit; gabungkan dengan IMU bawaan Control Hub buat heading)
+**Dead Wheel DIY pakai REV Through Bore Encoder V2** (2 encoder per robot x 2 robot = 4 unit; gabungkan dengan IMU bawaan Control Hub buat heading)
 
 ```text
 SKU          Nama Part                                        Jml  Harga           Link                                      
@@ -58,27 +58,6 @@ SKU          Nama Part                                        Jml  Harga        
 REV-11-3174  REV Through Bore Encoder V2 (2 per bot x 2 bot)  4    US$48.00 /unit  https://www.revrobotics.com/rev-11-3174/  
 ```
 Subtotal: 4 x US$48.00 = **US$192.00**
-
-**Opsi 2 — Kedua Paling Umum: goBILDA Pinpoint V2 + Swingarm Odometry Pod** (1 Pinpoint + 2 pod per robot x 2 robot)
-
-```text
-SKU             Nama Part                                                  Jml  Harga           Link                                                                                           
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-3110-0002-0002  goBILDA Pinpoint V2 Odometry Computer (1 per bot x 2 bot)  2    US$79.99 /unit  https://www.gobilda.com/pinpoint-v2-odometry-computer-imu-sensor-fusion-for-2-wheel-odometry/  
-3110-0001-0001  goBILDA Swingarm Odometry Pod 48mm (2 per bot x 2 bot)     4    US$99.99 /unit  https://www.gobilda.com/swingarm-odometry-pod-48mm-wheel/                                      
-```
-Subtotal: (2 x US$79.99) + (4 x US$99.99) = **US$559.94**
-
-**Opsi 3 — Paling Sederhana Dipasang (tapi paling jarang dipakai): SparkFun OTOS** (1 sensor per robot x 2 robot)
-
-```text
-SKU        Nama Part                          Jml  Harga           Link                                                                                     
-------------------------------------------------------------------------------------------------------------------------------------------------------------
-PAA5160E1  SparkFun OTOS (1 per bot x 2 bot)  2    US$79.95 /unit  https://www.sparkfun.com/sparkfun-optical-tracking-odometry-sensor-paa5160e1-qwiic.html  
-```
-Subtotal: 2 x US$79.95 = **US$159.90**
-
-Kalau belum tahu mau pilih yang mana: Opsi 3 (OTOS) paling murah dan paling gampang dipasang buat mulai. Opsi 1 (dead wheel DIY) yang paling umum dipakai komunitas FTC, part-nya murah tapi butuh paling banyak kerja rakit + tuning kode. Opsi 2 (Pinpoint) paling presisi tapi juga paling mahal karena butuh 2 pod per robot.
 
 ## Pengambil
 
