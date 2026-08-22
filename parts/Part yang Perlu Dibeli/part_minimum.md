@@ -77,6 +77,8 @@ TPU 95A High-Flow     95A            Sama fleksibel dengan 95A biasa, tapi lebih
 
 Butuh direct-drive extruder (bukan Bowden) buat cetak TPU dengan mulus — cek printer yang dipakai sebelum beli.
 
+Lagi diskon 12% jadi Rp368.720 di Tokopedia — cek sebelum diskonnya habis: https://tk.tokopedia.com/ZSV5cGaJ4/
+
 ## Pelontar
 
 **Wajib beli 4x HD Hex Motor.** Pelontar rencananya pakai 2x HD Hex Motor per robot (ini terpisah dari motor drivetrain di bab Penggerak) — 2 robot x 2 motor = 4 motor. Karena 6x HD Hex Motor yang sudah dimiliki sepenuhnya dialokasikan buat Penggerak, keempat motor buat Pelontar ini HARUS dibeli baru semua.
