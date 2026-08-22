@@ -18,7 +18,7 @@
 **Rencananya bangun 2 robot**, dan itu menentukan berapa banyak wheel yang masih perlu dibeli. Ada dua rencana yang lagi dipertimbangkan:
 
 - **Rencana A** — 2 robot yang SAMA PERSIS, masing-masing pakai 4 omni wheel. Total butuh 8 omni wheel; CK cuma punya 4 (2x REV-41-1190-PK2, tiap pack isi 2). **Kurang 4 omni wheel.**
-- **Rencana B** — 2 robot BEDA jenis, satu pakai 4 omni wheel, satu lagi pakai 4 mecanum wheel. Omni wheel yang dipunya (4 buah) udah pas buat robot pertama. Mecanum belum punya sama sekali. **Kurang 4 mecanum wheel** (1 set).
+- **Rencana B** — 2 robot yang SAMA PERSIS, masing-masing pakai 4 mecanum wheel. Mecanum belum punya sama sekali. **Kurang 8 mecanum wheel** (2 set).
 
 Pilih SATU rencana — belinya beda tergantung mana yang dipakai:
 
@@ -30,12 +30,12 @@ SKU              Nama Part                                                      
 REV-41-1190-PK2  REV 90mm Omni Wheel - 2 Pack (tambahan, buat genapkan ke 8 wheel)  2    ~US$31.00 /pack  https://www.revrobotics.com/rev-41-1190/  
 ```
 
-**Kalau Rencana B (1 robot omni + 1 robot mecanum):**
+**Kalau Rencana B (2 robot mecanum):**
 
 ```text
-SKU             Nama Part                                                 Jml  Harga      Link                                                                                     
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-3213-3606-0002  goBILDA 96mm Mecanum Wheel Set (70A Durometer, 4 wheels)  1    US$169.99  https://www.gobilda.com/96mm-mecanum-wheel-set-70a-durometer-bearing-supported-rollers/  
+Nama Part       Jml  Harga                
+------------------------------------------
+Mecanum Wheels  12   12 buah = Rp2.000.000  
 ```
 
 **Motor penggerak (berlaku buat kedua rencana):** tiap robot butuh 4 motor DC (satu per wheel), jadi 2 robot = 8 motor. CK cuma punya 6x UltraPlanetary Gearbox Kit & HD Hex Motor. **Kurang 2 motor.**
