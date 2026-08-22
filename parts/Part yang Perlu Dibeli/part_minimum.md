@@ -1,9 +1,5 @@
 # Part Minimum yang Perlu Dibeli
 
-Cuma part yang BENAR-BENAR wajib dibeli sekarang, dengan asumsi CK pakai part yang sudah dimiliki (lihat `../Part yang Dimiliki/part_yang_dimiliki.md`) buat semua yang lain. Untuk opsi upgrade/alternatif, lihat `part_tambahan.md`.
-
-**Total minimum:** tergantung kombinasi rencana Penggerak (Rencana A ~US$162 atau Rencana B ~US$269.99, untuk wheel + motor) dan opsi Odometri (US$159.90 - US$559.94, sudah dikali 2 robot) yang dipilih, PLUS US$200 tetap buat Pelontar (4x HD Hex Motor) — lihat detail di masing-masing bab. Pengambil dan Sasis (rangka utama) tetap 0 dibeli.
-
 ## Daftar Isi
 
 - [Sasis](#sasis)
