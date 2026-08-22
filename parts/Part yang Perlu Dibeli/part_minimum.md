@@ -20,7 +20,7 @@ Panel/Cover            Perlu dibeli     Lembar polikarbonat 3mm
 Bearing                Perlu dibeli     -                                                         
 Timing Belt            Perlu dibeli     -                                                         
 Gear                   3D printed dulu  Nanti dimanufaktur oleh orang tua dari metal              
-Fastener               Perlu dibeli     -                                                         
+Lock Collars           Perlu dibeli     -                                                         
 ```
 
 ## Penggerak
