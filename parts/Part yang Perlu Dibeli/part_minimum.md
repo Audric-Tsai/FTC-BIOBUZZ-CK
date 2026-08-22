@@ -11,15 +11,15 @@
 
 ## Sasis
 
-**Standoff: custom made, dipotong oleh Darwin.**
-
-**C-Channel dan aluminium: disourced dari beberapa orang tua** (bukan dibuat/dipotongin, cuma disourced), jadi nggak perlu beli.
-
-**Panel/cover: bakal beli lembar polikarbonat 3mm.**
-
-**Bearing: perlu dibeli.**
-
-**Timing belt: perlu dibeli.**
+```text
+Item                    Status         Keterangan                                                    
+------------------------------------------------------------------------------------------------------
+Standoff                Custom made    Dipotong oleh Darwin                                          
+C-Channel & Aluminium   Sourced        Dari beberapa orang tua (bukan dipotongin, cuma disourced)     
+Panel/Cover             Perlu dibeli   Lembar polikarbonat 3mm                                        
+Bearing                 Perlu dibeli   -                                                              
+Timing Belt             Perlu dibeli   -                                                              
+```
 
 ## Penggerak
 
