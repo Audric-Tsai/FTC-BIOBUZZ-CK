@@ -11,9 +11,15 @@
 
 ## Sasis
 
-**Rangka utama: udah ada orang tua yang bersedia bantu potongin aluminium.** Lembar aluminium buat sasis bakal didapat dari situ, jadi nggak perlu beli.
+**Standoff: custom made, dipotong oleh Darwin.**
+
+**C-Channel dan aluminium: disourced dari beberapa orang tua** (bukan dibuat/dipotongin, cuma disourced), jadi nggak perlu beli.
 
 **Panel/cover: bakal beli lembar polikarbonat 3mm.**
+
+**Bearing: perlu dibeli.**
+
+**Timing belt: perlu dibeli.**
 
 ## Penggerak
 
