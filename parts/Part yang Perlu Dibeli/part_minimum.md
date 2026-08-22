@@ -12,15 +12,15 @@
 ## Struktur
 
 ```text
-Item                    Status         Keterangan                                                    
-------------------------------------------------------------------------------------------------------
-Standoff                Custom made    Dipotong oleh Darwin                                          
-C-Channel & Aluminium   Sourced        Dari beberapa orang tua (bukan dipotongin, cuma disourced)     
-Panel/Cover             Perlu dibeli   Lembar polikarbonat 3mm                                        
-Bearing                 Perlu dibeli   -                                                              
-Timing Belt             Perlu dibeli   -                                                              
-Gear                    3D printed dulu  Nanti dimanufaktur oleh orang tua dari metal                 
-Fastener                Perlu dibeli   -                                                              
+Item                   Status           Keterangan                                                
+----------------------------------------------------------------------------------------------------
+Standoff               Custom made      Dipotong oleh Darwin                                      
+C-Channel & Aluminium  Sourced          Dari beberapa orang tua (bukan dipotongin, cuma disourced)
+Panel/Cover            Perlu dibeli     Lembar polikarbonat 3mm                                   
+Bearing                Perlu dibeli     -                                                         
+Timing Belt            Perlu dibeli     -                                                         
+Gear                   3D printed dulu  Nanti dimanufaktur oleh orang tua dari metal              
+Fastener               Perlu dibeli     -                                                         
 ```
 
 ## Penggerak
