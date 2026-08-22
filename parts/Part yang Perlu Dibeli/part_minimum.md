@@ -100,8 +100,6 @@ Kalau nanti butuh tambahan, sensor yang paling umum dipakai tim FTC lain (opsion
 ```text
 SKU          Nama Part                                    Kegunaan Umum                                  Link                                      
 --------------------------------------------------------------------------------------------------------------------------------------------------
-REV-31-1557  REV Color Sensor V3                          Deteksi warna game piece, garis lapangan       https://www.revrobotics.com/rev-31-1557/  
 REV-31-1505  REV 2m Distance Sensor (ToF)                  Ukur jarak ke objek/dinding, alignment         https://www.revrobotics.com/rev-31-1505/  
 REV-31-1462  REV Magnetic Limit Switch                     Batasi gerakan mekanisme (slide, arm, dll)     https://www.revrobotics.com/rev-31-1462/  
-REV-45-1885  REV FTC Sensor Bundle (gabungan ketiga di atas)  Paket hemat kalau mau ketiganya sekaligus   https://www.revrobotics.com/rev-45-1885/  
 ```
