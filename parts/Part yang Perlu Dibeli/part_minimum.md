@@ -86,7 +86,7 @@ Kalau nanti butuh tambahan, sensor yang paling umum dipakai tim FTC lain (opsion
 ```text
 SKU          Nama Part                                    Kegunaan Umum                                  Link                                      
 --------------------------------------------------------------------------------------------------------------------------------------------------
--            IMU (built-in di Control Hub)                Heading/orientasi robot, sudah gak perlu beli   -                                          
+REV-31-3332  REV IMU                                      Heading/orientasi robot                        https://www.revrobotics.com/rev-31-3332/?searchid=5490865&search_query=imu  
 REV-31-1505  REV 2m Distance Sensor (ToF)                  Ukur jarak ke objek/dinding, alignment         https://www.revrobotics.com/rev-31-1505/  
 REV-31-1462  REV Magnetic Limit Switch                     Batasi gerakan mekanisme (slide, arm, dll)     https://www.revrobotics.com/rev-31-1462/  
 ```
