@@ -93,13 +93,14 @@ Sudah ditambahkan ke `daftar_belanja.md` (link ke Google Sheets live).
 
 ## Sensor
 
-**0 dibeli.** Logitech C270 HD Webcam yang sudah dimiliki cukup buat deteksi AprilTag/vision dasar.
+Logitech C270 HD Webcam yang sudah dimiliki cukup buat deteksi AprilTag/vision dasar.
 
 Kalau nanti butuh tambahan, sensor yang paling umum dipakai tim FTC lain (opsional, belum wajib dibeli):
 
 ```text
 SKU          Nama Part                                    Kegunaan Umum                                  Link                                      
 --------------------------------------------------------------------------------------------------------------------------------------------------
+-            IMU (built-in di Control Hub)                Heading/orientasi robot, sudah gak perlu beli   -                                          
 REV-31-1505  REV 2m Distance Sensor (ToF)                  Ukur jarak ke objek/dinding, alignment         https://www.revrobotics.com/rev-31-1505/  
 REV-31-1462  REV Magnetic Limit Switch                     Batasi gerakan mekanisme (slide, arm, dll)     https://www.revrobotics.com/rev-31-1462/  
 ```
