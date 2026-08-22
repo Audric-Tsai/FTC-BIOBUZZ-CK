@@ -82,7 +82,9 @@ Kalau belum tahu mau pilih yang mana: Opsi 3 (OTOS) paling murah dan paling gamp
 
 ## Pengambil
 
-**0 dibeli — sudah lengkap.** Punya 2x Core Hex Motor (REV-41-1300), satu buat masing-masing robot. Intake tiap robot pakai 1x Core Hex Motor. Semuanya sudah cukup buat 2 robot, nggak perlu beli apa-apa lagi buat sekarang.
+**Motor: 0 dibeli — sudah lengkap.** Punya 2x Core Hex Motor (REV-41-1300), satu buat masing-masing robot. Intake tiap robot pakai 1x Core Hex Motor. Semuanya sudah cukup buat 2 robot, nggak perlu beli motor lagi buat sekarang.
+
+**Filament: perlu beli 1 roll filament yang fleksibel tapi kuat** (misal TPU) buat cetak part-part Pengambil yang butuh lentur tanpa gampang patah.
 
 ## Pelontar
 
