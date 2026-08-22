@@ -10,7 +10,8 @@ REV-31-1596        REV Driver Hub                                               
 REV-31-2983        REV USB PS4 Compatible Gamepad                                                    1
 REV-31-1299        Battery Charger                                                                   2
 REV-31-1302        12V Slim Battery                                                                  2
-REV-41-1097        Smart Robot Servo                                                                 6
+REV-41-1097        Smart Robot Servo V1                                                              4
+REV-41-3334/3336   Smart Robot Servo V2                                                              3
 REV-41-1119        5.5mm Nut Driver                                                                  4
 REV-41-1124-PK100  M3 x 20mm Hex Cap Screws - 100 Pack                                               2
 REV-41-1125-PK50   M3 x 35mm Hex Cap Screws - 50 Pack                                                2
