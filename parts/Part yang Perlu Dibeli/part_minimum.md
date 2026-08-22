@@ -71,14 +71,14 @@ Subtotal: 4 x US$48.00 = **US$192.00**
 
 ## Pengambil
 
-**Motor: perlu beli 2 Core Hex Motor tambahan.** Punya 2x Core Hex Motor (REV-41-1300), satu buat masing-masing robot. Intake tiap robot pakai 1x Core Hex Motor. Tambahan +2 unit buat cadangan/kebutuhan lain.
+**Motor: perlu beli 4 Core Hex Motor tambahan** biar total jadi 6. Punya 2x Core Hex Motor (REV-41-1300), satu buat masing-masing robot. Intake tiap robot pakai 1x Core Hex Motor.
 
 ```text
 SKU          Nama Part        Jml  Harga           Link                                      
 ------------------------------------------------------------------------------------------
-REV-41-1300  Core Hex Motor  2    US$32.00 /unit  https://www.revrobotics.com/rev-41-1300/  
+REV-41-1300  Core Hex Motor  4    US$32.00 /unit  https://www.revrobotics.com/rev-41-1300/  
 ```
-Subtotal: 2 x US$32.00 = **US$64.00**
+Subtotal: 4 x US$32.00 = **US$128.00**
 
 **Filament: beli TPU 90A** buat cetak part-part Pengambil yang butuh lentur tanpa gampang patah. Lagi diskon 12% jadi Rp368.720 di Tokopedia — cek sebelum diskonnya habis: https://tk.tokopedia.com/ZSV5cGaJ4/
 
