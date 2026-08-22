@@ -11,7 +11,9 @@
 
 ## Sasis
 
-**Rangka utama: 0 dibeli.** Extrusion/C-Channel aluminium 6061-T6 dari 2x Starter Kit V3.1 sudah cukup buat rangka dasar. Beli lagi cuma kalau kepanjangan yang dimiliki sudah habis.
+**Rangka utama: udah ada orang tua yang bersedia bantu potongin aluminium.** Lembar aluminium buat sasis bakal didapat dari situ, jadi nggak perlu beli.
+
+**Panel/cover: bakal beli lembar polikarbonat 3mm.**
 
 ## Penggerak
 
