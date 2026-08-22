@@ -2,14 +2,14 @@
 
 ## Daftar Isi
 
-- [Sasis](#sasis)
+- [Struktur](#struktur)
 - [Penggerak](#penggerak)
 - [Odometri](#odometri)
 - [Pengambil](#pengambil)
 - [Pelontar](#pelontar)
 - [Sensor](#sensor)
 
-## Sasis
+## Struktur
 
 ```text
 Item                    Status         Keterangan                                                    
@@ -19,6 +19,7 @@ C-Channel & Aluminium   Sourced        Dari beberapa orang tua (bukan dipotongin
 Panel/Cover             Perlu dibeli   Lembar polikarbonat 3mm                                        
 Bearing                 Perlu dibeli   -                                                              
 Timing Belt             Perlu dibeli   -                                                              
+Gear                    3D printed dulu  Nanti dimanufaktur oleh orang tua dari metal                 
 ```
 
 ## Penggerak
