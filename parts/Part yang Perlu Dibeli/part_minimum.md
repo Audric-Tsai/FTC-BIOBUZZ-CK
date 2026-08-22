@@ -63,21 +63,7 @@ Subtotal: 4 x US$48.00 = **US$192.00**
 
 **Motor: 0 dibeli — sudah lengkap.** Punya 2x Core Hex Motor (REV-41-1300), satu buat masing-masing robot. Intake tiap robot pakai 1x Core Hex Motor. Semuanya sudah cukup buat 2 robot, nggak perlu beli motor lagi buat sekarang.
 
-**Filament: perlu beli 1 roll filament yang fleksibel tapi kuat** (misal TPU) buat cetak part-part Pengambil yang butuh lentur tanpa gampang patah.
-
-Opsi filament stretchable yang bisa dipilih (urut dari paling elastis ke paling kaku):
-
-```text
-Jenis                Shore Hardness  Karakteristik                                                        
---------------------------------------------------------------------------------------------------------
-TPU 85A-90A          85A-90A         Paling elastis/lentur, cocok buat part yang perlu banyak lentur     
-TPU 95A (standar)    95A             Fleksibel tapi masih cukup kaku buat pegangan/roller intake         
-TPU 95A High-Flow     95A            Sama fleksibel dengan 95A biasa, tapi lebih gampang dicetak/cepat   
-```
-
-Butuh direct-drive extruder (bukan Bowden) buat cetak TPU dengan mulus — cek printer yang dipakai sebelum beli.
-
-Lagi diskon 12% jadi Rp368.720 di Tokopedia — cek sebelum diskonnya habis: https://tk.tokopedia.com/ZSV5cGaJ4/
+**Filament: beli TPU 90A** buat cetak part-part Pengambil yang butuh lentur tanpa gampang patah. Lagi diskon 12% jadi Rp368.720 di Tokopedia — cek sebelum diskonnya habis: https://tk.tokopedia.com/ZSV5cGaJ4/
 
 ## Pelontar
 
