@@ -35,6 +35,12 @@ public class intake extends LinearOpMode {
         while (opModeIsActive()) {
             // Your autonomous code goes here
             intake.setPower(1.0);
+            while (opModeIsActive()) {
+                // Your autonomous code goes here
+                intake.setPower(1.0);
+                telemetry.addData(" Motor Power",intake.getPower());
+                telemetry.update();
+            }
         }
     }
 }
