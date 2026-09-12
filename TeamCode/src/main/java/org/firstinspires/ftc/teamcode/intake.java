@@ -33,8 +33,6 @@ public class intake extends LinearOpMode {
         // ==========================================
         // Anything after waitForStart() runs when the match begins
         while (opModeIsActive()) {
-            // Your autonomous code goes here
-            intake.setPower(1.0);
             while (opModeIsActive()) {
                 // Your autonomous code goes here
                 intake.setPower(1.0);
