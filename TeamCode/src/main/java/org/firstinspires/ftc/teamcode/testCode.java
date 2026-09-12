@@ -20,8 +20,8 @@ public class testCode extends LinearOpMode {
         rightMotor = hardwareMap.get(DcMotor.class, "right_drive");
         intake = hardwareMap.get(DcMotor.class, "intake");
 
-        leftMotor.setDirection(DcMotor.Direction.FORWARD);
-        rightMotor.setDirection(DcMotor.Direction.FORWARD);
+        leftMotor.setDirection(DcMotor.Direction.REVERSE);
+        rightMotor.setDirection(DcMotor.Direction.REVERSE);
         intake.setDirection(DcMotor.Direction.REVERSE);
 
 
